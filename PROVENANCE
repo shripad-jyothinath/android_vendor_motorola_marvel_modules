@@ -1,0 +1,33 @@
+Motorola Edge 70 Fusion (marvel / SM7635 "volcano") stock kernel modules
+Generated: 2026-11-04
+
+vendor_boot/lib/modules
+  Source: A171WEH.36-31 firmware, diag/fw31/vendor_boot/ramdisk_ramdisk0/lib/modules
+  294 .ko + modules.alias, modules.blocklist, modules.dep, modules.load,
+  modules.load.recovery, modules.softdep
+  This is the exact 36-31 vendor_boot ramdisk.
+
+vendor_dlkm/lib/modules
+  Source: A171WEH.36-18 extracted vendor_dlkm tree
+  (marvel-data/fw-A171WEH.36-18/vendor_dlkm/lib/modules).
+  The A171WEH.36-31 vendor_dlkm_a_stock.img EROFS metadata was parsed:
+  all 292 .ko names and sizes match this tree exactly. The only size
+  difference in the image is /etc/build.prop (851 bytes vs 849).
+  The 36-31 image uses modern (layout 3) EROFS LZ4 compression, so the
+  36-18 payloads are used as the verified 36-31 equivalent.
+  292 .ko + modules.alias, modules.blocklist, modules.dep, modules.load,
+  modules.softdep, system_dlkm.modules.blocklist
+
+Known 36-31 vs 36-18 vendor_boot difference:
+  bk_log.ko - same size (30,400 bytes), different SHA-256.
+  The 36-31 copy is included here.
+
+Source image hashes (SHA-256):
+  prebuilt/vendor_boot_a.img (36-31 A)                    ed7508888d292c98bc5eacb708818706626340adc7e70f475f2b4ca95b65306a
+  stock-vendor-images/vendor_dlkm_a_stock.img (36-31 A)   9a7b86a0d21ce44ba049ccea8cccb7fb4d62948654f93eb58f6fa195ec4137b9
+  diag/fw31/boot/kernel (36-31)                           ca8f54a3c8f3570fd02549281060e12d436f131ce08dc2825978f154fcf70ee0
+  prebuilt/kernel (tree)                                  ca8f54a3c8f3570fd02549281060e12d436f131ce08dc2825978f154fcf70ee0
+
+Counts:
+  vendor_boot: 294 .ko, 28,633,336 bytes
+  vendor_dlkm: 292 .ko, 65,060,336 bytes

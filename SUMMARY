@@ -1,0 +1,60 @@
+Motorola Edge 70 Fusion (marvel / SM7635) stock kernel modules
+================================================================
+Source/provenance: see PROVENANCE.
+Full per-module metadata: module-info.tsv.
+
+Modules: 586
+  vendor_boot: 294 .ko (28,633,336 bytes)
+  vendor_dlkm: 292 .ko (65,060,336 bytes)
+
+Kernel
+  prebuilt/kernel (device tree) == diag/fw31/boot/kernel (A171WEH.36-31)
+  SHA-256 ca8f54a3c8f3570fd02549281060e12d436f131ce08dc2825978f154fcf70ee0
+  Linux version 6.1.157-android14-11-ga8b0b542991e-ab15601211
+  Kernel vermagic string:
+    6.1.157-android14-11-ga8b0b542991e-ab15601211 SMP preempt mod_unload modversions aarch64
+  A171WEH.36-31 boot.img is ANDROID!, header v4, kernel_size=35,637,760,
+  ramdisk_size=0. It contains no .ko files. The 294 vendor_boot modules are
+  the boot-stage modules; vendor_dlkm supplies the runtime vendor modules.
+
+Vermagic split
+  vendor_boot: 293x 6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64
+                1x 6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64 (bk_log.ko)
+  vendor_dlkm: 260x 6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64
+                32x 6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64
+  The 32 vendor_dlkm 04113 modules include goodix_brl_mmi.ko,
+  goodix_fod_mmi.ko and rbs_fod_mmi.ko.
+  None of the module vermagic strings equals the kernel's ga8b0... string.
+  TWRP still loads them: logcat shows "Loaded kernel module
+  /vendor/lib/modules/goodix_fod_mmi.ko" and the same for goodix_brl_mmi.ko;
+  dmesg shows "goodix_ts ... ts_mmi_check_dt: find drm_panel successfully".
+  The loader ignores/force-loads vermagic. Do not use strict vermagic as a
+  loadability test on this device.
+
+Licenses
+  GPL v2: 298
+  GPL: 284
+  GPL and additional rights: 2
+  Dual BSD/GPL: 2
+
+Signatures
+  No signer/sig_key fields in .modinfo; the modules are unsigned. The stock
+  kernel accepts them (TWRP loads them).
+
+TWRP device-tree list (device.mk TW_LOAD_VENDOR_MODULES)
+  goodix_brl_mmi.ko goodix_fod_mmi.ko rbs_fod_mmi.ko
+  smcinvoke_dlkm.ko qseecom_proxy.ko qti_battery_charger.ko adsp_loader_dlkm.ko
+  All seven roots exist in vendor_dlkm; the dependency closure is complete
+  (no missing modules). TWRP logcat confirms goodix_fod_mmi and goodix_brl_mmi
+  loaded; dmesg confirms the goodix touch probe.
+
+Firmware
+  goodix_brl_mmi.ko references goodix_firmware.bin and
+  goodix_cfg_group.bin. The device tree carries the panel-prefixed stock
+  firmware: boe/csot/tm_goodix_firmware.bin and *_cfg_group.bin.
+  Fingerprint firmware goodixfp64.* is on /vendor/firmware_mnt/image (modem
+  firmware), not in this repository.
+
+Known A171WEH.36-31 vs A171WEH.36-18 vendor_boot difference
+  bk_log.ko: same size (30,400 bytes), different SHA-256. The 36-31 copy is
+  included in vendor_boot/.
