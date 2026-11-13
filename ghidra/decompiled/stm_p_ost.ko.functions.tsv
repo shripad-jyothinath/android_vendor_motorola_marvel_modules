@@ -1,0 +1,9 @@
+name	entry	size	callers	callees
+init_module	001000cc	36	[]	[<EXTERNAL>::stm_register_protocol]
+cleanup_module	001000f4	36	[]	[<EXTERNAL>::stm_unregister_protocol]
+ost_write	0010011c	340	[]	[<EXTERNAL>::__stack_chk_fail, <EXTERNAL>::sched_clock, <EXTERNAL>::stm_data_write]
+stm_register_protocol	00101000	1	[init_module]	[]
+stm_unregister_protocol	00101008	1	[cleanup_module]	[]
+sched_clock	00101018	1	[ost_write]	[]
+stm_data_write	00101020	1	[ost_write]	[]
+__stack_chk_fail	00101028	1	[ost_write]	[]

@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+debug_symbol_available	00100114	644	[]	[<EXTERNAL>::memset, <EXTERNAL>::__stack_chk_fail, <EXTERNAL>::strcmp]
+debug_symbol_lookup_name	0010039c	772	[]	[<EXTERNAL>::memset, <EXTERNAL>::__stack_chk_fail, <EXTERNAL>::strcmp]
+init_module	001006d8	280	[]	[<EXTERNAL>::of_find_compatible_node, <EXTERNAL>::of_reserved_mem_lookup, <EXTERNAL>::__of_parse_phandle_with_args, <EXTERNAL>::memset, <EXTERNAL>::memremap, <EXTERNAL>::__stack_chk_fail, <EXTERNAL>::_printk]
+memset	00102008	1	[debug_symbol_available, debug_symbol_lookup_name, init_module]	[]
+strcmp	00102010	1	[debug_symbol_available, debug_symbol_lookup_name]	[]
+__stack_chk_fail	00102018	1	[debug_symbol_available, debug_symbol_lookup_name, init_module]	[]
+of_find_compatible_node	00102020	1	[init_module]	[]
+__of_parse_phandle_with_args	00102028	1	[init_module]	[]
+of_reserved_mem_lookup	00102030	1	[init_module]	[]
+memremap	00102038	1	[init_module]	[]
+_printk	00102040	1	[init_module]	[]

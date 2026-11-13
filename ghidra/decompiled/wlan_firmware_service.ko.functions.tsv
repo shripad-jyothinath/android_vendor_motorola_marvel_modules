@@ -1,0 +1,4 @@
+name	entry	size	callers	callees
+init_module	001080ec	108	[]	[<EXTERNAL>::of_device_is_available, <EXTERNAL>::of_find_node_with_property]
+of_find_node_with_property	00109008	1	[init_module]	[]
+of_device_is_available	00109010	1	[init_module]	[]

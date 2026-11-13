@@ -1,0 +1,7 @@
+name	entry	size	callers	callees
+qti_thermal_pm_notify	0010008c	12	[]	[]
+init_module	0010009c	76	[]	[<EXTERNAL>::tracepoint_probe_register, <EXTERNAL>::_printk]
+cleanup_module	001000ec	48	[]	[<EXTERNAL>::tracepoint_probe_unregister]
+tracepoint_probe_register	00101008	1	[init_module]	[]
+_printk	00101010	1	[init_module]	[]
+tracepoint_probe_unregister	00101018	1	[cleanup_module]	[]

@@ -1,0 +1,5 @@
+name	entry	size	callers	callees
+qcom_icc_set_qos	0010012c	248	[]	[<EXTERNAL>::regmap_update_bits_base]
+qcom_icc_set_qnoc2_qos	00100228	240	[]	[<EXTERNAL>::regmap_update_bits_base]
+qcom_icc_set_bimc_qos	0010031c	360	[]	[<EXTERNAL>::regmap_update_bits_base]
+regmap_update_bits_base	00101000	1	[qcom_icc_set_qos, qcom_icc_set_qnoc2_qos, qcom_icc_set_bimc_qos]	[]

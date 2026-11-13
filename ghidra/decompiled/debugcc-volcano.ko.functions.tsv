@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+clk_debug_volcano_probe	0010008c	1008	[]	[<EXTERNAL>::devm_clk_register_debug_mux, <EXTERNAL>::clk_debug_measure_register, <EXTERNAL>::clk_hw_get_name, <EXTERNAL>::devm_clk_get, <EXTERNAL>::_dev_info, <EXTERNAL>::map_debug_bases, <EXTERNAL>::devm_clk_register, <EXTERNAL>::_dev_err]
+init_module	00100480	44	[]	[<EXTERNAL>::__platform_driver_register]
+__platform_driver_register	00106000	1	[init_module]	[]
+devm_clk_get	00106008	1	[clk_debug_volcano_probe]	[]
+map_debug_bases	00106010	1	[clk_debug_volcano_probe]	[]
+devm_clk_register	00106018	1	[clk_debug_volcano_probe]	[]
+devm_clk_register_debug_mux	00106020	1	[clk_debug_volcano_probe]	[]
+clk_debug_measure_register	00106028	1	[clk_debug_volcano_probe]	[]
+_dev_info	00106030	1	[clk_debug_volcano_probe]	[]
+_dev_err	00106038	1	[clk_debug_volcano_probe]	[]
+clk_hw_get_name	00106040	1	[clk_debug_volcano_probe]	[]

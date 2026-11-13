@@ -1,0 +1,9 @@
+name	entry	size	callers	callees
+msm_stub_dev_probe	001000d4	52	[]	[<EXTERNAL>::snd_soc_register_component]
+msm_stub_dev_remove	0010010c	36	[]	[<EXTERNAL>::snd_soc_unregister_component]
+init_module	00100134	44	[]	[<EXTERNAL>::__platform_driver_register]
+cleanup_module	00100164	36	[]	[<EXTERNAL>::platform_driver_unregister]
+__platform_driver_register	00101000	1	[init_module]	[]
+platform_driver_unregister	00101008	1	[cleanup_module]	[]
+snd_soc_register_component	00101010	1	[msm_stub_dev_probe]	[]
+snd_soc_unregister_component	00101018	1	[msm_stub_dev_remove]	[]

@@ -1,0 +1,7 @@
+name	entry	size	callers	callees
+get_qcom_scmi_device	001000b4	56	[]	[]
+scmi_client_probe	001000f0	40	[]	[]
+init_module	00100134	52	[]	[<EXTERNAL>::scmi_driver_register]
+cleanup_module	0010016c	36	[]	[<EXTERNAL>::scmi_driver_unregister]
+scmi_driver_register	00101000	1	[init_module]	[]
+scmi_driver_unregister	00101008	1	[cleanup_module]	[]

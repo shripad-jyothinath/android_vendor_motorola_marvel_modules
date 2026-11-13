@@ -1,0 +1,8 @@
+name	entry	size	callers	callees
+provide_qseecom_kernel_fun_ops	00100164	80	[]	[<EXTERNAL>::_printk]
+qseecom_start_app	001001b8	160	[]	[<EXTERNAL>::___ratelimit, <EXTERNAL>::_printk]
+qseecom_shutdown_app	0010025c	156	[]	[<EXTERNAL>::___ratelimit, <EXTERNAL>::_printk]
+qseecom_send_command	001002fc	156	[]	[<EXTERNAL>::___ratelimit, <EXTERNAL>::_printk]
+qseecom_process_listener_from_smcinvoke	0010039c	156	[]	[<EXTERNAL>::___ratelimit, <EXTERNAL>::_printk]
+_printk	00101000	1	[qseecom_process_listener_from_smcinvoke, qseecom_send_command, provide_qseecom_kernel_fun_ops, qseecom_shutdown_app, qseecom_start_app]	[]
+___ratelimit	00101008	1	[qseecom_process_listener_from_smcinvoke, qseecom_send_command, qseecom_shutdown_app, qseecom_start_app]	[]

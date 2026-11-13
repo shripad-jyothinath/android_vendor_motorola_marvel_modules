@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+iommu_logger_register	001000bc	448	[]	[<EXTERNAL>::kmalloc_trace, <EXTERNAL>::__list_add_valid, <EXTERNAL>::iommu_group_get, <EXTERNAL>::mutex_unlock, <EXTERNAL>::kasprintf, <EXTERNAL>::iommu_group_put, <EXTERNAL>::mutex_lock, <EXTERNAL>::kfree]
+iommu_logger_unregister	00100280	124	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::__list_del_entry_valid, <EXTERNAL>::mutex_lock, <EXTERNAL>::kfree]
+kmalloc_trace	00101010	1	[iommu_logger_register]	[]
+kasprintf	00101018	1	[iommu_logger_register]	[]
+iommu_group_get	00101020	1	[iommu_logger_register]	[]
+iommu_group_put	00101028	1	[iommu_logger_register]	[]
+mutex_lock	00101030	1	[iommu_logger_register, iommu_logger_unregister]	[]
+__list_add_valid	00101038	1	[iommu_logger_register]	[]
+mutex_unlock	00101040	1	[iommu_logger_register, iommu_logger_unregister]	[]
+kfree	00101048	1	[iommu_logger_register, iommu_logger_unregister]	[]
+__list_del_entry_valid	00101050	1	[iommu_logger_unregister]	[]

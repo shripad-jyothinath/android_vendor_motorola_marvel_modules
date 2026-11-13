@@ -1,0 +1,9 @@
+name	entry	size	callers	callees
+audio_pdr_service_register	001000c4	96	[]	[<EXTERNAL>::pdr_add_lookup, <EXTERNAL>::_printk, <EXTERNAL>::pdr_handle_alloc]
+audio_pdr_service_deregister	00100128	76	[]	[<EXTERNAL>::pdr_handle_release, <EXTERNAL>::_printk]
+init_module	001001b4	8	[]	[]
+cleanup_module	001001c0	4	[]	[]
+pdr_handle_alloc	00101000	1	[audio_pdr_service_register]	[]
+pdr_add_lookup	00101008	1	[audio_pdr_service_register]	[]
+_printk	00101010	1	[audio_pdr_service_deregister, audio_pdr_service_register]	[]
+pdr_handle_release	00101018	1	[audio_pdr_service_deregister]	[]

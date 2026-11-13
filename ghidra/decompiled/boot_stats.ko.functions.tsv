@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+readl_relaxed	001000b0	124	[init_module]	[<EXTERNAL>::log_post_read_mmio, <EXTERNAL>::log_read_mmio]
+init_module	00100134	412	[]	[readl_relaxed, <EXTERNAL>::of_find_compatible_node, <EXTERNAL>::of_iomap, <EXTERNAL>::_printk, <EXTERNAL>::__of_get_address, <EXTERNAL>::iounmap, <EXTERNAL>::of_property_read_variable_u32_array]
+cleanup_module	001002d4	4	[]	[]
+of_find_compatible_node	00101000	1	[init_module]	[]
+of_iomap	00101008	1	[init_module]	[]
+of_property_read_variable_u32_array	00101010	1	[init_module]	[]
+__of_get_address	00101018	1	[init_module]	[]
+_printk	00101020	1	[init_module]	[]
+iounmap	00101028	1	[init_module]	[]
+log_read_mmio	00101030	1	[readl_relaxed]	[]
+log_post_read_mmio	00101038	1	[readl_relaxed]	[]

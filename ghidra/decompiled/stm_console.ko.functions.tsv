@@ -1,0 +1,11 @@
+name	entry	size	callers	callees
+init_module	001000fc	40	[]	[<EXTERNAL>::stm_source_register_device]
+cleanup_module	00100128	36	[]	[<EXTERNAL>::stm_source_unregister_device]
+stm_console_link	00100150	80	[]	[<EXTERNAL>::register_console]
+stm_console_unlink	001001a4	32	[]	[<EXTERNAL>::unregister_console]
+stm_console_write	001001c8	48	[]	[<EXTERNAL>::stm_source_write]
+stm_source_register_device	00101000	1	[init_module]	[]
+stm_source_unregister_device	00101008	1	[cleanup_module]	[]
+register_console	00101010	1	[stm_console_link]	[]
+unregister_console	00101018	1	[stm_console_unlink]	[]
+stm_source_write	00101020	1	[stm_console_write]	[]

@@ -1,0 +1,11 @@
+name	entry	size	callers	callees
+init_module	00100084	544	[]	[<EXTERNAL>::ipa3_wwan_platform_driver_register, <EXTERNAL>::_printk, <EXTERNAL>::rndis_ipa_cleanup_module, <EXTERNAL>::ncm_ipa_cleanup_module, <EXTERNAL>::ipc_log_string, <EXTERNAL>::rndis_ipa_init_module, <EXTERNAL>::ncm_ipa_init_module, <EXTERNAL>::ipa3_wwan_cleanup]
+cleanup_module	001002a8	132	[]	[<EXTERNAL>::rndis_ipa_cleanup_module, <EXTERNAL>::ncm_ipa_cleanup_module, <EXTERNAL>::ipc_log_string, <EXTERNAL>::ipa3_wwan_cleanup]
+ipc_log_string	00101008	1	[init_module, cleanup_module]	[]
+ipa3_wwan_platform_driver_register	00101010	1	[init_module]	[]
+rndis_ipa_init_module	00101018	1	[init_module]	[]
+ncm_ipa_init_module	00101020	1	[init_module]	[]
+_printk	00101028	1	[init_module]	[]
+ipa3_wwan_cleanup	00101030	1	[init_module, cleanup_module]	[]
+rndis_ipa_cleanup_module	00101038	1	[init_module, cleanup_module]	[]
+ncm_ipa_cleanup_module	00101040	1	[init_module, cleanup_module]	[]

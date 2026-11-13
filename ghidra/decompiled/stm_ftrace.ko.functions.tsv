@@ -1,0 +1,13 @@
+name	entry	size	callers	callees
+stm_ftrace_link	00100114	56	[]	[<EXTERNAL>::register_ftrace_export]
+stm_ftrace_unlink	00100150	32	[]	[<EXTERNAL>::unregister_ftrace_export]
+stm_ftrace_write	00100174	60	[]	[<EXTERNAL>::stm_source_write]
+init_module	001001b8	128	[]	[<EXTERNAL>::__bitmap_weight, <EXTERNAL>::_printk, <EXTERNAL>::stm_source_register_device]
+cleanup_module	0010023c	36	[]	[<EXTERNAL>::stm_source_unregister_device]
+__bitmap_weight	00101010	1	[init_module]	[]
+stm_source_register_device	00101018	1	[init_module]	[]
+_printk	00101020	1	[init_module]	[]
+stm_source_unregister_device	00101028	1	[cleanup_module]	[]
+register_ftrace_export	00101030	1	[stm_ftrace_link]	[]
+unregister_ftrace_export	00101038	1	[stm_ftrace_unlink]	[]
+stm_source_write	00101048	1	[stm_ftrace_write]	[]

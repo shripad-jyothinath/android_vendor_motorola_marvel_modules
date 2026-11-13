@@ -1,0 +1,13 @@
+name	entry	size	callers	callees
+balance_reclaim	0010012c	12	[]	[]
+scan_abort_checks	0010013c	12	[]	[]
+can_fixup_sea	0010014c	32	[]	[]
+kswapd_threads_set	00100170	152	[]	[<EXTERNAL>::kthread_stop, kswapd_per_node_run]
+kswapd_per_node_run	00100208	324	[init_module, kswapd_threads_set]	[<EXTERNAL>::wake_up_process, <EXTERNAL>::_printk, <EXTERNAL>::kthread_create_on_node]
+init_module	00100354	268	[]	[<EXTERNAL>::android_rvh_probe_register, <EXTERNAL>::_printk, kswapd_per_node_run, <EXTERNAL>::tracepoint_probe_register]
+tracepoint_probe_register	00101008	1	[init_module]	[]
+android_rvh_probe_register	00101018	1	[init_module]	[]
+_printk	00101030	1	[init_module, kswapd_per_node_run]	[]
+kthread_stop	00101040	1	[kswapd_threads_set]	[]
+kthread_create_on_node	00101050	1	[kswapd_per_node_run]	[]
+wake_up_process	00101058	1	[kswapd_per_node_run]	[]

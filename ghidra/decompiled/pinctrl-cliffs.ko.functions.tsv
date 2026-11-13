@@ -1,0 +1,8 @@
+name	entry	size	callers	callees
+cliffs_pinctrl_probe	001000a4	68	[]	[<EXTERNAL>::msm_pinctrl_probe, <EXTERNAL>::of_device_get_match_data]
+init_module	001000ec	44	[]	[<EXTERNAL>::__platform_driver_register]
+cleanup_module	0010011c	36	[]	[<EXTERNAL>::platform_driver_unregister]
+__platform_driver_register	0010d000	1	[init_module]	[]
+platform_driver_unregister	0010d008	1	[cleanup_module]	[]
+of_device_get_match_data	0010d010	1	[cliffs_pinctrl_probe]	[]
+msm_pinctrl_probe	0010d018	1	[cliffs_pinctrl_probe]	[]

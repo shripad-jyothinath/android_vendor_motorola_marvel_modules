@@ -1,0 +1,11 @@
+name	entry	size	callers	callees
+gh_mem_notifier_register	00100144	168	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock]
+gh_mem_notifier_unregister	001001f0	68	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock]
+gh_mem_notifier_call	00100238	264	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock]
+init_module	0010037c	84	[]	[<EXTERNAL>::_printk, <EXTERNAL>::gh_rm_register_notifier]
+cleanup_module	001003d4	36	[]	[<EXTERNAL>::gh_rm_unregister_notifier]
+mutex_lock	00101000	1	[gh_mem_notifier_register, gh_mem_notifier_unregister, gh_mem_notifier_call]	[]
+mutex_unlock	00101008	1	[gh_mem_notifier_register, gh_mem_notifier_unregister, gh_mem_notifier_call]	[]
+gh_rm_register_notifier	00101010	1	[init_module]	[]
+_printk	00101018	1	[init_module]	[]
+gh_rm_unregister_notifier	00101020	1	[cleanup_module]	[]

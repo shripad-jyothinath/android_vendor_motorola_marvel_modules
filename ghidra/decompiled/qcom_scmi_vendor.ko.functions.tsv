@@ -1,0 +1,13 @@
+name	entry	size	callers	callees
+qcom_scmi_vendor_protocol_init	001001ac	116	[]	[<EXTERNAL>::__stack_chk_fail]
+qcom_scmi_set_param	00100224	328	[]	[<EXTERNAL>::__stack_chk_fail, <EXTERNAL>::memcpy]
+qcom_scmi_get_param	00100370	408	[]	[<EXTERNAL>::__stack_chk_fail, <EXTERNAL>::_printk, <EXTERNAL>::memcpy]
+qcom_scmi_start_activity	0010050c	328	[]	[<EXTERNAL>::__stack_chk_fail, <EXTERNAL>::memcpy]
+qcom_scmi_stop_activity	00100658	328	[]	[<EXTERNAL>::__stack_chk_fail, <EXTERNAL>::memcpy]
+init_module	001007a4	36	[]	[<EXTERNAL>::scmi_protocol_register]
+cleanup_module	001007cc	36	[]	[<EXTERNAL>::scmi_protocol_unregister]
+scmi_protocol_register	00101000	1	[init_module]	[]
+scmi_protocol_unregister	00101008	1	[cleanup_module]	[]
+__stack_chk_fail	00101010	1	[qcom_scmi_start_activity, qcom_scmi_vendor_protocol_init, qcom_scmi_get_param, qcom_scmi_set_param, qcom_scmi_stop_activity]	[]
+memcpy	00101018	1	[qcom_scmi_start_activity, qcom_scmi_get_param, qcom_scmi_set_param, qcom_scmi_stop_activity]	[]
+_printk	00101020	1	[qcom_scmi_get_param]	[]

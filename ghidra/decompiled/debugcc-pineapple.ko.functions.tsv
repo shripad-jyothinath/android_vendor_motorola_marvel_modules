@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+clk_debug_pineapple_probe	00100084	1216	[]	[<EXTERNAL>::clk_hw_get_name, <EXTERNAL>::devm_clk_register, <EXTERNAL>::clk_debug_measure_register, <EXTERNAL>::map_debug_bases, <EXTERNAL>::_dev_err, <EXTERNAL>::devm_clk_register_debug_mux, <EXTERNAL>::_dev_info, <EXTERNAL>::devm_clk_get]
+init_module	00100548	44	[]	[<EXTERNAL>::__platform_driver_register]
+__platform_driver_register	00105000	1	[init_module]	[]
+devm_clk_get	00105008	1	[clk_debug_pineapple_probe]	[]
+_dev_err	00105010	1	[clk_debug_pineapple_probe]	[]
+map_debug_bases	00105018	1	[clk_debug_pineapple_probe]	[]
+devm_clk_register	00105020	1	[clk_debug_pineapple_probe]	[]
+clk_hw_get_name	00105028	1	[clk_debug_pineapple_probe]	[]
+devm_clk_register_debug_mux	00105030	1	[clk_debug_pineapple_probe]	[]
+clk_debug_measure_register	00105038	1	[clk_debug_pineapple_probe]	[]
+_dev_info	00105040	1	[clk_debug_pineapple_probe]	[]

@@ -1,0 +1,12 @@
+name	entry	size	callers	callees
+mmi_qcom_minidump_probe	001000b4	348	[]	[<EXTERNAL>::__of_parse_phandle_with_args, <EXTERNAL>::strscpy, <EXTERNAL>::__stack_chk_fail, <EXTERNAL>::msm_minidump_add_region, <EXTERNAL>::_printk, <EXTERNAL>::of_address_to_resource]
+init_module	00100214	44	[]	[<EXTERNAL>::__platform_driver_register]
+cleanup_module	00100244	36	[]	[<EXTERNAL>::platform_driver_unregister]
+__platform_driver_register	00101000	1	[init_module]	[]
+platform_driver_unregister	00101008	1	[cleanup_module]	[]
+__of_parse_phandle_with_args	00101010	1	[mmi_qcom_minidump_probe]	[]
+of_address_to_resource	00101018	1	[mmi_qcom_minidump_probe]	[]
+strscpy	00101020	1	[mmi_qcom_minidump_probe]	[]
+msm_minidump_add_region	00101030	1	[mmi_qcom_minidump_probe]	[]
+_printk	00101038	1	[mmi_qcom_minidump_probe]	[]
+__stack_chk_fail	00101040	1	[mmi_qcom_minidump_probe]	[]

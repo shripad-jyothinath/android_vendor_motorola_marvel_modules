@@ -12,8 +12,8 @@ This directory contains only metadata and the headless scripts:
   largest functions, source-path breadcrumbs, sample log strings
 - scripts/: ExportDecomp.java and ExportNamed.java
 
-The decompiled C itself is kept in the private marvel-build-artifacts
-repository under ghidra/decompiled/. It is not published here because the
-module set includes Qualcomm/Motorola vendor modules with mixed licensing;
-treat the decompiled output as private research material and review licensing
-before any public redistribution.
+The decompiled C is included in this repository under ghidra/decompiled/ at the
+explicit request of the repository owner. The module set is mostly GPL/GPL-2.0
+but also includes Qualcomm/Motorola vendor modules with mixed licensing. Review
+the applicable module licences before redistributing or reusing this output;
+it is provided here as research/analysis material for the Marvel bring-up.

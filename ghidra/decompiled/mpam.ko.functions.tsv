@@ -1,0 +1,11 @@
+name	entry	size	callers	callees
+qcom_mpam_set_cache_portion	0010012c	164	[]	[<EXTERNAL>::__stack_chk_fail]
+qcom_mpam_get_cache_portion	001001d4	192	[]	[<EXTERNAL>::__stack_chk_fail]
+mpam_dev_probe	00100298	208	[]	[<EXTERNAL>::get_qcom_scmi_device, <EXTERNAL>::_dev_err]
+init_module	001003a8	44	[]	[<EXTERNAL>::__platform_driver_register]
+cleanup_module	001003d8	36	[]	[<EXTERNAL>::platform_driver_unregister]
+__stack_chk_fail	00101000	1	[qcom_mpam_set_cache_portion, qcom_mpam_get_cache_portion]	[]
+__platform_driver_register	00101008	1	[init_module]	[]
+platform_driver_unregister	00101010	1	[cleanup_module]	[]
+get_qcom_scmi_device	00101018	1	[mpam_dev_probe]	[]
+_dev_err	00101020	1	[mpam_dev_probe]	[]

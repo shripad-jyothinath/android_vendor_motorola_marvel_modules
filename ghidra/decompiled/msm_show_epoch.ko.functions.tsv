@@ -1,0 +1,6 @@
+name	entry	size	callers	callees
+msm_show_suspend_epoch_val	001000a4	36	[]	[<EXTERNAL>::_printk]
+msm_show_resume_epoch_val	001000cc	36	[]	[<EXTERNAL>::_printk]
+init_module	001000f4	76	[]	[<EXTERNAL>::tracepoint_probe_register]
+tracepoint_probe_register	00101008	1	[init_module]	[]
+_printk	00101018	1	[msm_show_resume_epoch_val, msm_show_suspend_epoch_val]	[]

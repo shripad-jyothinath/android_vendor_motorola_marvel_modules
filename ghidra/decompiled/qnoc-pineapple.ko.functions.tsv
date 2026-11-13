@@ -1,0 +1,7 @@
+name	entry	size	callers	callees
+qnoc_probe	0010007c	92	[]	[<EXTERNAL>::_dev_info, <EXTERNAL>::_dev_err, <EXTERNAL>::qcom_icc_rpmh_probe]
+init_module	001000dc	44	[]	[<EXTERNAL>::__platform_driver_register]
+__platform_driver_register	00160000	1	[init_module]	[]
+qcom_icc_rpmh_probe	00160008	1	[qnoc_probe]	[]
+_dev_info	00160010	1	[qnoc_probe]	[]
+_dev_err	00160018	1	[qnoc_probe]	[]

@@ -1,0 +1,9 @@
+name	entry	size	callers	callees
+panel_event_notifier_register	00100124	288	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock, <EXTERNAL>::_printk]
+panel_event_notifier_unregister	00100248	76	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock]
+panel_event_notification_trigger	00100298	684	[]	[<EXTERNAL>::mutex_unlock, <EXTERNAL>::mutex_lock, <EXTERNAL>::_printk]
+init_module	001005a8	8	[]	[]
+cleanup_module	001005b4	4	[]	[]
+mutex_lock	00101000	1	[panel_event_notifier_register, panel_event_notification_trigger, panel_event_notifier_unregister]	[]
+mutex_unlock	00101008	1	[panel_event_notifier_register, panel_event_notification_trigger, panel_event_notifier_unregister]	[]
+_printk	00101010	1	[panel_event_notifier_register, panel_event_notification_trigger]	[]
