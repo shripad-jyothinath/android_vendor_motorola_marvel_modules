@@ -1,0 +1,515 @@
+module	set	bytes	license	description	author	depends	vermagic	aliases	exported	undefined	path
+adsp_loader_dlkm	vendor_dlkm	25136	GPL v2	ADSP Loader module		spf_core_dlkm,qcom_q6v5_pas	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	37	/tmp/opencode/modules/vendor_dlkm/adsp_loader_dlkm.ko
+adsp_sleepmon	vendor_dlkm	79184	GPL			qcom_q6v5_pas,smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	11	70	/tmp/opencode/modules/vendor_dlkm/adsp_sleepmon.ko
+altmode-glink	vendor_dlkm	34096	GPL v2	QTI Type-C Alt Mode over GLINK		pmic_glink,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	9	40	/tmp/opencode/modules/vendor_dlkm/altmode-glink.ko
+at803x	vendor_dlkm	86976	GPL	Qualcomm Atheros AR803x and QCA808X PHY driver	Matus Ujhelyi		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	10	10	54	/tmp/opencode/modules/vendor_dlkm/at803x.ko
+audio_pkt_dlkm	vendor_dlkm	42296	GPL v2	MSM Audio Packet Driver		qcom_ipc_logging,spf_core_dlkm,audpkt_ion_dlkm,gpr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	10	50	/tmp/opencode/modules/vendor_dlkm/audio_pkt_dlkm.ko
+audio_prm_dlkm	vendor_dlkm	27256	GPL v2	audio prm		gpr_dlkm,spf_core_dlkm,q6_notifier_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	10	24	/tmp/opencode/modules/vendor_dlkm/audio_prm_dlkm.ko
+audpkt_ion_dlkm	vendor_dlkm	36696	GPL v2	MSM Audio ION module		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	12	40	/tmp/opencode/modules/vendor_dlkm/audpkt_ion_dlkm.ko
+aw882xx_dlkm	vendor_dlkm	361560	GPL v2	ASoC AW882XX Smart PA Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	128	77	/tmp/opencode/modules/vendor_dlkm/aw882xx_dlkm.ko
+aw_haptic_hv_v1_10	vendor_dlkm	596480	GPL v2	AWINIC Haptic Driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	21	83	/tmp/opencode/modules/vendor_dlkm/aw_haptic_hv_v1_10.ko
+awinic_sar	vendor_dlkm	166576	GPL v2	AWINIC SAR Driver		sensors_class	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	35	74	/tmp/opencode/modules/vendor_dlkm/awinic_sar.ko
+bam_dma	vendor_dlkm	59616	GPL v2	QCOM BAM DMA engine driver	Andy Gross <agross@codeaurora.org>	qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	11	83	/tmp/opencode/modules/vendor_dlkm/bam_dma.ko
+bcl_soc	vendor_dlkm	21136	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	19	/tmp/opencode/modules/vendor_dlkm/bcl_soc.ko
+bhs-irq-controller	vendor_dlkm	17096	GPL	Standalone IPCC IRQ control module for BHS SMP2P and GLINK			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	16	/tmp/opencode/modules/vendor_dlkm/bhs-irq-controller.ko
+bm_adsp_ulog	vendor_dlkm	48312	GPL v2	QTI Glink battery manager adsp ulog driver		pmic_glink,qcom_ipc_logging	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	14	52	/tmp/opencode/modules/vendor_dlkm/bm_adsp_ulog.ko
+boot_stats	vendor_dlkm	14344	GPL v2	MSM boot stats info driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	8	/tmp/opencode/modules/vendor_dlkm/boot_stats.ko
+bt_fm_slim	vendor_dlkm	47856	"GPL v2
+GPL v2"	"BTFM Slimbus Slave driver
+BTFM Slimbus Codec driver"		slimbus,btpower	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	23	35	/tmp/opencode/modules/vendor_dlkm/bt_fm_slim.ko
+bt_fm_swr	vendor_dlkm	37136	"GPL v2
+GPL v2"	"BTFM SoundWire Slave driver
+BTFM SoundWire Codec driver"		btpower,swr_dlkm,btfmcodec	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	17	24	/tmp/opencode/modules/vendor_dlkm/bt_fm_swr.ko
+btfmcodec	vendor_dlkm	90296	GPL v2	MSM Bluetooth FM CODEC driver		rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	40	63	/tmp/opencode/modules/vendor_dlkm/btfmcodec.ko
+btpower	vendor_dlkm	127896	GPL v2	MSM Bluetooth power control driver		smcinvoke_dlkm,pinctrl-msm,rfkill	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	28	86	/tmp/opencode/modules/vendor_dlkm/btpower.ko
+bwmon	vendor_dlkm	74896	GPL	QCOM BWMON driver		qcom-dcvs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	57	/tmp/opencode/modules/vendor_dlkm/bwmon.ko
+bwprof	vendor_dlkm	30376	GPL	QCOM BWPROF driver		qcom-dcvs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	4	40	/tmp/opencode/modules/vendor_dlkm/bwprof.ko
+c1dcvs_scmi_v2	vendor_dlkm	29240	GPL	Qcom SCMI C1DCVS driver		qcom_scmi_client	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	20	/tmp/opencode/modules/vendor_dlkm/c1dcvs_scmi_v2.ko
+cam_aw37004	vendor_dlkm	30552	GPL	AW37004 regulator driver	LONGC168 <longc168@motorola.com>		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	11	29	/tmp/opencode/modules/vendor_dlkm/cam_aw37004.ko
+cam_aw37004_2nd	vendor_dlkm	30552	GPL	AW37004 regulator driver	LONGC168 <longc168@motorola.com>		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	11	29	/tmp/opencode/modules/vendor_dlkm/cam_aw37004_2nd.ko
+camcc-volcano	vendor_dlkm	85896	GPL	QTI CAM_CC VOLCANO Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	16	/tmp/opencode/modules/vendor_dlkm/camcc-volcano.ko
+camera	vendor_dlkm	6722064	"GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2"	"Camera Request Manager
+MSM Camera SMMU driver
+Camera sync driver
+MSM CPAS driver
+MSM Camera CDM Intf driver
+MSM Camera HW CDM driver
+Spectra camera driver
+CAM IFE_CSID driver
+CAM IFE_CSID_LITE driver
+CAM SFE driver
+CAM VFE driver
+MSM ISP driver
+CAM IPE driver
+CAM ICP_V1 driver
+Camera ICP_V2 driver
+CAM BPS driver
+CAM OFE driver
+MSM ICP driver
+CAM CSID_PPI100 driver
+CAM TFE_CSID driver
+CAM TFE driver
+CAM CRE driver
+MSM CRE driver
+cam_actuator_driver
+MSM CCI driver
+CAM TPG driver
+CAM CSIPHY driver
+CAM EEPROM driver
+CAM OIS driver
+cam_sensor_driver
+Camera resource manager driver
+CAM FLASH
+mot_actuator_driver"		mem_buf_dev,crm,clk-qcom,qcom_va_minidump,smmu_proxy_dlkm,qcom-scm,smcinvoke_dlkm,qcom_iommu_util,socinfo,llcc-qcom,mdt_loader,qcom-spmi-wled,leds-qti-flash	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	196	1951	396	/tmp/opencode/modules/vendor_dlkm/camera.ko
+cdsp-loader	vendor_dlkm	18816	GPL v2	CDSP Loader module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_dlkm/cdsp-loader.ko
+cdsprm	vendor_dlkm	94832	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	23	66	/tmp/opencode/modules/vendor_dlkm/cdsprm.ko
+cfg80211	vendor_dlkm	2076200	GPL	wireless configuration support	Johannes Berg	rfkill	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	888	193	/tmp/opencode/modules/vendor_dlkm/cfg80211.ko
+charger-ulog-glink	vendor_dlkm	30472	GPL v2	QTI charger ulog glink driver		pmic_glink,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	33	/tmp/opencode/modules/vendor_dlkm/charger-ulog-glink.ko
+cnss_nl	vendor_dlkm	15832	GPL v2	CNSS generic netlink module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	6	/tmp/opencode/modules/vendor_dlkm/cnss_nl.ko
+cnss_plat_ipc_qmi_svc	vendor_dlkm	49448	"GPL v2
+GPL v2"	"CNSS Platform IPC QMI Service
+WLAN FW QMI service"		qmi_helpers,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	18	34	/tmp/opencode/modules/vendor_dlkm/cnss_plat_ipc_qmi_svc.ko
+cnss_prealloc	vendor_dlkm	24432	GPL v2	CNSS prealloc driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	15	16	/tmp/opencode/modules/vendor_dlkm/cnss_prealloc.ko
+cnss_utils	vendor_dlkm	33288	GPL v2	CNSS Utilities Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	19	31	/tmp/opencode/modules/vendor_dlkm/cnss_utils.ko
+con_dfpar	vendor_dlkm	60072	GPL v2				6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	4	28	/tmp/opencode/modules/vendor_dlkm/con_dfpar.ko
+core_hang_detect	vendor_dlkm	25120	GPL v2	MSM Core Hang Detect Driver		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	26	/tmp/opencode/modules/vendor_dlkm/core_hang_detect.ko
+coresight-csr	vendor_dlkm	47464	GPL	CoreSight CSR driver		coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	34	/tmp/opencode/modules/vendor_dlkm/coresight-csr.ko
+coresight-cti	vendor_dlkm	89344	GPL v2	Arm CoreSight CTI Driver	Mike Leach <mike.leach@linaro.org>	coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	21	77	/tmp/opencode/modules/vendor_dlkm/coresight-cti.ko
+coresight-dummy	vendor_dlkm	21592	GPL	CoreSight dummy source driver		coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	12	/tmp/opencode/modules/vendor_dlkm/coresight-dummy.ko
+coresight-funnel	vendor_dlkm	31320	GPL v2	Arm CoreSight Funnel Driver	"Pratik Patel <pratikp@codeaurora.org>
+Mathieu Poirier <mathieu.poirier@linaro.org>"	coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	42	/tmp/opencode/modules/vendor_dlkm/coresight-funnel.ko
+coresight-hwevent	vendor_dlkm	25064	GPL	CoreSight Hardware Event driver		coresight,coresight-csr	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	31	/tmp/opencode/modules/vendor_dlkm/coresight-hwevent.ko
+coresight-remote-etm	vendor_dlkm	32160	GPL	CoreSight Remote ETM driver		qmi_helpers,coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	27	/tmp/opencode/modules/vendor_dlkm/coresight-remote-etm.ko
+coresight-replicator	vendor_dlkm	30264	GPL v2	Arm CoreSight Replicator Driver	"Pratik Patel <pratikp@codeaurora.org>
+Mathieu Poirier <mathieu.poirier@linaro.org>"	coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	6	36	/tmp/opencode/modules/vendor_dlkm/coresight-replicator.ko
+coresight-stm	vendor_dlkm	40944	GPL v2	Arm CoreSight System Trace Macrocell driver	Pratik Patel <pratikp@codeaurora.org>	coresight,stm_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	5	40	/tmp/opencode/modules/vendor_dlkm/coresight-stm.ko
+coresight-tgu	vendor_dlkm	25232	GPL	CoreSight TGU driver		coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	15	/tmp/opencode/modules/vendor_dlkm/coresight-tgu.ko
+coresight-tmc-sec	vendor_dlkm	38104	GPL	CoreSight Secure ETR driver		qcom-scm,coresight-remote-etm,coresight,coresight-csr	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	55	/tmp/opencode/modules/vendor_dlkm/coresight-tmc-sec.ko
+coresight-tmc	vendor_dlkm	120016	GPL v2	Arm CoreSight Trace Memory Controller driver	Pratik Patel <pratikp@codeaurora.org>	coresight,coresight-csr,qcom_iommu_util,usb_f_qdss	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	41	115	/tmp/opencode/modules/vendor_dlkm/coresight-tmc.ko
+coresight-tpda	vendor_dlkm	34928	GPL	Trace, Profiling & Diagnostic Aggregator driver		coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	22	/tmp/opencode/modules/vendor_dlkm/coresight-tpda.ko
+coresight-tpdm	vendor_dlkm	130600	GPL	Trace, Profiling & Diagnostic Monitor driver		coresight,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	25	/tmp/opencode/modules/vendor_dlkm/coresight-tpdm.ko
+coresight-trace-noc	vendor_dlkm	26832	GPL	Trace NOC driver		coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	22	/tmp/opencode/modules/vendor_dlkm/coresight-trace-noc.ko
+coresight	vendor_dlkm	157464	GPL v2	Arm CoreSight tracer driver	"Pratik Patel <pratikp@codeaurora.org>
+Mathieu Poirier <mathieu.poirier@linaro.org>"		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	91	106	/tmp/opencode/modules/vendor_dlkm/coresight.ko
+cpu_voltage_cooling	vendor_dlkm	26208	GPL	CPU Voltage cooling device driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	32	/tmp/opencode/modules/vendor_dlkm/cpu_voltage_cooling.ko
+cpucp_log	vendor_dlkm	27968	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	39	/tmp/opencode/modules/vendor_dlkm/cpucp_log.ko
+cpufreq_stats_scmi_v2	vendor_dlkm	21448	GPL	Qcom SCMI CPUFREQ STATS V2 driver		qcom_scmi_client	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	22	/tmp/opencode/modules/vendor_dlkm/cpufreq_stats_scmi_v2.ko
+crc-itu-t	vendor_dlkm	39960	GPL	CRC ITU-T V.41 calculations			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	0	/tmp/opencode/modules/vendor_dlkm/crc-itu-t.ko
+ddr_cdev	vendor_dlkm	16392	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	12	/tmp/opencode/modules/vendor_dlkm/ddr_cdev.ko
+debugcc-cliffs	vendor_dlkm	52008	GPL	QTI DEBUG CC CLIFFS Driver		clk-qcom,clk-dummy	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	11	/tmp/opencode/modules/vendor_dlkm/debugcc-cliffs.ko
+debugcc-pineapple	vendor_dlkm	44928	GPL	QTI DEBUG CC PINEAPPLE Driver		clk-qcom,clk-dummy	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	11	/tmp/opencode/modules/vendor_dlkm/debugcc-pineapple.ko
+debugcc-volcano	vendor_dlkm	53792	GPL	QTI DEBUG CC VOLCANO Driver		clk-qcom,clk-dummy	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	11	/tmp/opencode/modules/vendor_dlkm/debugcc-volcano.ko
+dmesg_dumper	vendor_dlkm	35496	GPL	QTI Virtual Machine dmesg log buffer dumper		gh_rm_drv,gh_dbl,gh_panic_notifier,minidump,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	56	/tmp/opencode/modules/vendor_dlkm/dmesg_dumper.ko
+drm_display_helper	vendor_dlkm	257696	GPL and additional rights	DRM display adapter helper			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	150	89	/tmp/opencode/modules/vendor_dlkm/drm_display_helper.ko
+drm_dp_aux_bus	vendor_dlkm	24040	GPL v2	DRM DisplayPort AUX bus	Douglas Anderson <dianders@chromium.org>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	9	23	/tmp/opencode/modules/vendor_dlkm/drm_dp_aux_bus.ko
+dwc3-msm	vendor_dlkm	229136	GPL v2	DesignWare USB3 MSM Glue Layer		qcom_ipc_logging,redriver,repeater,clk-qcom,wcd_usbss_i2c	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	37	201	/tmp/opencode/modules/vendor_dlkm/dwc3-msm.ko
+dynpf_scmi	vendor_dlkm	16912	GPL	Qcom DYNPF SCMI driver		qcom_scmi_client	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	10	/tmp/opencode/modules/vendor_dlkm/dynpf_scmi.ko
+eud	vendor_dlkm	36192	GPL	QTI EUD driver		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	5	53	/tmp/opencode/modules/vendor_dlkm/eud.ko
+f_fs_ipc_log	vendor_dlkm	78504	GPL			qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	18	/tmp/opencode/modules/vendor_dlkm/f_fs_ipc_log.ko
+frpc-adsprpc	vendor_dlkm	703608	GPL v2			qcom-scm,minidump,mem_buf_dev,socinfo,rproc_qcom_common,qcom_ramdump,pdr_interface	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	86	161	/tmp/opencode/modules/vendor_dlkm/frpc-adsprpc.ko
+fsa4480-i2c	vendor_dlkm	25912	GPL	FSA4480 I2C driver		qti-regmap-debugfs,ucsi_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	33	/tmp/opencode/modules/vendor_dlkm/fsa4480-i2c.ko
+gh_ctrl	vendor_dlkm	25248	GPL	Qualcomm Technologies, Inc. Gunyah Hypervisor Control Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	18	/tmp/opencode/modules/vendor_dlkm/gh_ctrl.ko
+gh_irq_lend	vendor_dlkm	27168	GPL	Qualcomm Technologies, Inc. Gunyah IRQ Lending Library		gh_rm_drv,gunyah_loader	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	20	/tmp/opencode/modules/vendor_dlkm/gh_irq_lend.ko
+gh_panic_notifier	vendor_dlkm	36280	GPL	Qualcomm Technologies, Inc. Gunyah Panic Notifier Driver		gh_dbl,gunyah_loader,gh_rm_drv,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	54	/tmp/opencode/modules/vendor_dlkm/gh_panic_notifier.ko
+gh_rm_booster	vendor_dlkm	23648	GPL	Qualcomm Technologies, Inc. Gunyah RM booster Driver		gh_rm_drv	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	28	/tmp/opencode/modules/vendor_dlkm/gh_rm_booster.ko
+gh_tlmm_vm_mem_access	vendor_dlkm	24512	GPL	Qualcomm Technologies, Inc. TLMM VM Memory Access Driver		pinctrl-msm,gh_rm_drv,gh_mem_notifier	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	24	/tmp/opencode/modules/vendor_dlkm/gh_tlmm_vm_mem_access.ko
+glink_pkt	vendor_dlkm	82576	GPL	MSM G-Link Packet Port		qcom_ipc_logging,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	99	/tmp/opencode/modules/vendor_dlkm/glink_pkt.ko
+glink_probe	vendor_dlkm	23656	GPL	Qualcomm Technologies, Inc. GLINK probe helper driver		qcom_ipc_logging,rproc_qcom_common,qcom_glink_smem,qcom_glink_spss,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	26	/tmp/opencode/modules/vendor_dlkm/glink_probe.ko
+goodix_brl_mmi	vendor_dlkm	441832	GPL v2	Goodix Touchscreen Core Module	Goodix, Inc.	mmi_info,touchscreen_mmi	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	8	77	155	/tmp/opencode/modules/vendor_dlkm/goodix_brl_mmi.ko
+goodix_fod_mmi	vendor_dlkm	87664	GPL	goodix fingerprint sensor device driver	"Jiangtao Yi, <yijiangtao@goodix.com>
+Jandy Gou, <gouqingsong@goodix.com>"		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	12	66	/tmp/opencode/modules/vendor_dlkm/goodix_fod_mmi.ko
+gpr_dlkm	vendor_dlkm	41416	GPL v2	QTI GPR Bus		q6_notifier_dlkm,snd_event_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	14	49	/tmp/opencode/modules/vendor_dlkm/gpr_dlkm.ko
+gpu_dump_skip_cdev	vendor_dlkm	15696	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	14	/tmp/opencode/modules/vendor_dlkm/gpu_dump_skip_cdev.ko
+gpucc-cliffs	vendor_dlkm	36272	GPL	QTI GPU_CC CLIFFS Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	16	/tmp/opencode/modules/vendor_dlkm/gpucc-cliffs.ko
+gpucc-volcano	vendor_dlkm	35016	GPL	QTI GPU_CC VOLCANO Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	16	/tmp/opencode/modules/vendor_dlkm/gpucc-volcano.ko
+gsim	vendor_dlkm	538864	GPL v2	Generic Software Interface (GSI)		qcom_ipc_logging,qcom_va_minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	123	81	/tmp/opencode/modules/vendor_dlkm/gsim.ko
+hdcp_qseecom_dlkm	vendor_dlkm	86072	GPL v2	HDCP driver		qseecom_proxy,smcinvoke_dlkm,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	109	19	/tmp/opencode/modules/vendor_dlkm/hdcp_qseecom_dlkm.ko
+hdmi_dlkm	vendor_dlkm	43576	GPL v2	MSM External Display Audio CODEC Driver		msm_ext_display	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	23	/tmp/opencode/modules/vendor_dlkm/hdmi_dlkm.ko
+health_monitor	vendor_dlkm	90296	GPL	System Health Monitor		qmi_helpers,qcom_ipc_logging,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	50	/tmp/opencode/modules/vendor_dlkm/health_monitor.ko
+heap_mem_ext_v01	vendor_dlkm	43560	GPL			qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	1	/tmp/opencode/modules/vendor_dlkm/heap_mem_ext_v01.ko
+hung_task_enh	vendor_dlkm	20376	GPL	QCOM Hung Task Enhancement			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	19	/tmp/opencode/modules/vendor_dlkm/hung_task_enh.ko
+hvc_gunyah	vendor_dlkm	23944	GPL	Qualcomm Technologies, Inc. Gunyah Hypervisor Console Driver		gh_rm_drv,gunyah_loader	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	25	/tmp/opencode/modules/vendor_dlkm/hvc_gunyah.ko
+hwmon	vendor_dlkm	65912	GPL	hardware monitoring sysfs/class support	Mark M. Hoffman <mhoffman@lightlink.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	25	56	/tmp/opencode/modules/vendor_dlkm/hwmon.ko
+i2c-msm-geni	vendor_dlkm	144272	GPL			qcom_ipc_logging,msm_gpi	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	13	104	/tmp/opencode/modules/vendor_dlkm/i2c-msm-geni.ko
+i3c-master-msm-geni	vendor_dlkm	169232	GPL			qcom_ipc_logging,pinctrl-msm,msm_gpi	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	11	134	/tmp/opencode/modules/vendor_dlkm/i3c-master-msm-geni.ko
+icnss2	vendor_dlkm	430192	GPL v2	iWCN CORE platform driver		qcom_ipc_logging,qcom_ramdump,socinfo,pdr_interface,cnss_prealloc,rproc_qcom_common,qcom_aoss,wlan_firmware_service,qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	140	283	/tmp/opencode/modules/vendor_dlkm/icnss2.ko
+ipam	vendor_dlkm	6563120	"GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL v2
+GPL"	"IPA HW device driver
+IPA MHI driver
+Tethering bridge driver
+ipa gsb driver
+IPA MHI client driver
+RNDIS_IPA network interface
+NCM_IPA network interface"		qcom_ipc_logging,gsim,qcom-scm,qcom_va_minidump,qcom_iommu_util,smem,mdt_loader,rmnet_mem,qmi_helpers,rproc_qcom_common,usb_f_gsi	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	1085	368	/tmp/opencode/modules/vendor_dlkm/ipam.ko
+ipanetm	vendor_dlkm	13960	GPL v2	IPA late init module		ipam,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	9	/tmp/opencode/modules/vendor_dlkm/ipanetm.ko
+leds-qpnp-vibrator-ldo	vendor_dlkm	26288	GPL v2	QPNP Vibrator-LDO driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	28	/tmp/opencode/modules/vendor_dlkm/leds-qpnp-vibrator-ldo.ko
+leds-qti-flash	vendor_dlkm	56872	GPL v2	QTI Flash LED driver		qti_battery_charger	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	39	/tmp/opencode/modules/vendor_dlkm/leds-qti-flash.ko
+leds-qti-tri-led	vendor_dlkm	25952	GPL v2	QTI TRI_LED driver		pwm-qti-lpg	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	28	/tmp/opencode/modules/vendor_dlkm/leds-qti-tri-led.ko
+llcc-qcom	vendor_dlkm	72240	GPL v2	Qualcomm Last Level Cache Controller			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	16	40	/tmp/opencode/modules/vendor_dlkm/llcc-qcom.ko
+llcc_perfmon	vendor_dlkm	64360	GPL	QCOM LLCC PMU MONITOR			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	30	/tmp/opencode/modules/vendor_dlkm/llcc_perfmon.ko
+lpass_bt_swr_dlkm	vendor_dlkm	33360	GPL	LPASS BT SWR driver		spf_core_dlkm,wcd_core_dlkm,snd_event_dlkm,swr_ctrl_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	9	47	/tmp/opencode/modules/vendor_dlkm/lpass_bt_swr_dlkm.ko
+lpass_cdc_dlkm	vendor_dlkm	114856	"GPL v2
+GPL v2"	"LPASS Codec driver
+LPASS codec clock resource manager driver"		spf_core_dlkm,snd_event_dlkm,qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	43	68	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_dlkm.ko
+lpass_cdc_rx_macro_dlkm	vendor_dlkm	218528	GPL v2	RX macro driver		lpass_cdc_dlkm,wcd_core_dlkm,swr_ctrl_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	16	90	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_rx_macro_dlkm.ko
+lpass_cdc_tx_macro_dlkm	vendor_dlkm	135344	GPL v2	TX macro driver		lpass_cdc_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	16	72	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_tx_macro_dlkm.ko
+lpass_cdc_va_macro_dlkm	vendor_dlkm	129608	GPL v2	LPASS codec VA macro driver		wcd_core_dlkm,lpass_cdc_dlkm,swr_ctrl_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	98	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_va_macro_dlkm.ko
+lpass_cdc_wsa2_macro_dlkm	vendor_dlkm	204408	GPL v2	WSA2 macro driver		lpass_cdc_dlkm,wcd_core_dlkm,swr_ctrl_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	88	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_wsa2_macro_dlkm.ko
+lpass_cdc_wsa_macro_dlkm	vendor_dlkm	211304	GPL v2	WSA macro driver		lpass_cdc_dlkm,wcd_core_dlkm,swr_ctrl_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	89	/tmp/opencode/modules/vendor_dlkm/lpass_cdc_wsa_macro_dlkm.ko
+lt9611uxc	vendor_dlkm	81224	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	21	92	/tmp/opencode/modules/vendor_dlkm/lt9611uxc.ko
+mac80211	vendor_dlkm	1973448	GPL	IEEE 802.11 subsystem		cfg80211,libarc4	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	974	318	/tmp/opencode/modules/vendor_dlkm/mac80211.ko
+machine_dlkm	vendor_dlkm	176048	GPL v2	ALSA SoC msm		spf_core_dlkm,audio_prm_dlkm,wcd_core_dlkm,sched-walt,socinfo,snd_event_dlkm,fsa4480-i2c,wcd_usbss_i2c,wcd937x_dlkm,wcd9378_dlkm,wcd939x_dlkm,wsa883x_dlkm,wsa884x_dlkm,lpass_cdc_dlkm,lpass_cdc_rx_macro_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	5	33	116	/tmp/opencode/modules/vendor_dlkm/machine_dlkm.ko
+max31760_fan	vendor_dlkm	28624	GPL	Maxim 31760 Fan Controller			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	28	/tmp/opencode/modules/vendor_dlkm/max31760_fan.ko
+mbhc_dlkm	vendor_dlkm	91384	GPL v2	wcd MBHC v2 module		wcd_usbss_i2c,fsa4480-i2c	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	21	44	/tmp/opencode/modules/vendor_dlkm/mbhc_dlkm.ko
+mem-hooks	vendor_dlkm	16040	GPL	Qualcomm Technologies, Inc. Memory Trace Hook Call-Back Registration			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	14	/tmp/opencode/modules/vendor_dlkm/mem-hooks.ko
+memlat	vendor_dlkm	83680	GPL	QCOM MEMLAT Driver		qcom_scmi_client,qcom-dcvs,qcom-pmu-lib	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	62	/tmp/opencode/modules/vendor_dlkm/memlat.ko
+mhi	vendor_dlkm	265928	GPL v2	MHI Host Interface		qcom_ipc_logging,pci-msm-drv	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	165	112	/tmp/opencode/modules/vendor_dlkm/mhi.ko
+mhi_dev_satellite	vendor_dlkm	48952	GPL	MHI SATELLITE DRIVER		qcom_ipc_logging,mhi	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	48	/tmp/opencode/modules/vendor_dlkm/mhi_dev_satellite.ko
+mhi_dev_uci	vendor_dlkm	50504	GPL	MHI UCI Driver		mhi,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	51	/tmp/opencode/modules/vendor_dlkm/mhi_dev_uci.ko
+mmi_annotate	vendor_dlkm	31416	GPL v2	MMI annotate		minidump	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	8	36	/tmp/opencode/modules/vendor_dlkm/mmi_annotate.ko
+mmi_charger	vendor_dlkm	119528	GPL v2	MMI Charger Driver		mmi_info,qcom_ipc_logging	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	13	66	/tmp/opencode/modules/vendor_dlkm/mmi_charger.ko
+mmi_info	vendor_dlkm	53968	GPL v2	Motorola Mobility LLC. HW Info		mmi_annotate,smem	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	27	40	/tmp/opencode/modules/vendor_dlkm/mmi_info.ko
+mmi_lpd_mitigate	vendor_dlkm	28120	GPL v2	MMI LPD Mitigate Driver		mmi_relay,qti_glink_charger	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	5	24	/tmp/opencode/modules/vendor_dlkm/mmi_lpd_mitigate.ko
+mmi_lpm_dbg	vendor_dlkm	31568	GPL v2	MOTO mmi lpm_dbg driver		qcom_stats	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	2	8	26	/tmp/opencode/modules/vendor_dlkm/mmi_lpm_dbg.ko
+mmi_qcom_minidump	vendor_dlkm	14288	GPL v2	Motorola, Inc. mmi_qcom_minidump Driver		minidump	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	2	4	9	/tmp/opencode/modules/vendor_dlkm/mmi_qcom_minidump.ko
+mmi_relay	vendor_dlkm	21512	GPL	Motorola Mobility Module Conmmunication Relay	Motorola Mobility LLC		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	3	7	16	/tmp/opencode/modules/vendor_dlkm/mmi_relay.ko
+mmi_stow	vendor_dlkm	16384	GPL v2	MOTO mmi stow driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	2	5	13	/tmp/opencode/modules/vendor_dlkm/mmi_stow.ko
+mmi_sys_temp	vendor_dlkm	28568	GPL	Motorola Mobility System Temperatures	Motorola Mobility LLC		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	3	4	28	/tmp/opencode/modules/vendor_dlkm/mmi_sys_temp.ko
+moto_binder	vendor_dlkm	102256	GPL v2	Motorola binder optimization driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	32	56	/tmp/opencode/modules/vendor_dlkm/moto_binder.ko
+moto_f_usbnet	vendor_dlkm	86120	GPL v2	Motorola USB LAN driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	5	50	/tmp/opencode/modules/vendor_dlkm/moto_f_usbnet.ko
+moto_mmap_fault	vendor_dlkm	21528	GPL v2	Motorola vendor mmap fault driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	8	19	/tmp/opencode/modules/vendor_dlkm/moto_mmap_fault.ko
+moto_reboot_reason	vendor_dlkm	17264	GPL v2	moto Reboot Reason Driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	2	4	15	/tmp/opencode/modules/vendor_dlkm/moto_reboot_reason.ko
+moto_sched	vendor_dlkm	290760	GPL v2	Motorola CPU sched optimizations driver		sched-walt	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	141	119	/tmp/opencode/modules/vendor_dlkm/moto_sched.ko
+moto_swap5	vendor_dlkm	164752	Dual BSD/GPL	Compressed RAM Block Device	Nitin Gupta <ngupta@vflare.org>	zsmalloc	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	25	193	/tmp/opencode/modules/vendor_dlkm/moto_swap5.ko
+mpam	vendor_dlkm	15888	GPL	QCOM MPAM driver		qcom_scmi_client	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	5	/tmp/opencode/modules/vendor_dlkm/mpam.ko
+msm-mmrm	vendor_dlkm	100416	GPL v2	QTI MMRM Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	36	41	/tmp/opencode/modules/vendor_dlkm/msm-mmrm.ko
+msm_drm	vendor_dlkm	4815992	"GPL
+GPL v2"	"MSM DRM Driver
+MSM SMMU driver"	Rob Clark <robdclark@gmail.com	qcom_ipc_logging,drm_display_helper,hdcp_qseecom_dlkm,gh_rm_drv,gh_irq_lend,gh_mem_notifier,gh_msgq,altmode-glink,dwc3-msm,fsa4480-i2c,wcd_usbss_i2c,msm_ext_display,sync_fence,llcc-qcom,panel_event_notifier,qcom-scm,qcom_va_minidump,pinctrl-msm,spmi-pmic-arb,qcom_rpmh,mem_buf_dev,qcom_iommu_util,msm_dma_iommu_mapping	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	16	1855	752	/tmp/opencode/modules/vendor_dlkm/msm_drm.ko
+msm_ext_display	vendor_dlkm	27496	GPL v2	MSM External Display			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	8	18	/tmp/opencode/modules/vendor_dlkm/msm_ext_display.ko
+msm_geni_serial	vendor_dlkm	207408	GPL	Serial driver for GENI based QTI serial cores		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	12	135	/tmp/opencode/modules/vendor_dlkm/msm_geni_serial.ko
+msm_gpi	vendor_dlkm	155928	GPL	QCOM GPI DMA engine driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	25	75	/tmp/opencode/modules/vendor_dlkm/msm_gpi.ko
+msm_hw_fence	vendor_dlkm	256200	GPL v2	QTI HW Fence Driver		gh_dbl,gh_rm_drv,gh_cpusys_vm_mem_access,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	87	77	/tmp/opencode/modules/vendor_dlkm/msm_hw_fence.ko
+msm_kgsl	vendor_dlkm	3049496	GPL v2	3D Graphics driver		socinfo,llcc-qcom,qcom-dcvs,qcom-scm,cmd-db,qcom_iommu_util,msm_performance,msm_hw_fence,qcom_aoss,msm_sysstats,mem_buf_dev,clk-qcom,secure_buffer,mdt_loader,minidump,qcom_va_minidump,coresight	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	1447	537	/tmp/opencode/modules/vendor_dlkm/msm_kgsl.ko
+msm_lmh_dcvs	vendor_dlkm	27296	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	44	/tmp/opencode/modules/vendor_dlkm/msm_lmh_dcvs.ko
+msm_memshare	vendor_dlkm	50536	GPL	Mem Share QMI Service Driver		rproc_qcom_common,qmi_helpers,qcom-scm,qcom_glink,heap_mem_ext_v01	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	45	/tmp/opencode/modules/vendor_dlkm/msm_memshare.ko
+msm_performance	vendor_dlkm	68728	GPL v2			qcom-pmu-lib,sched-walt,qcom_scmi_client	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	61	/tmp/opencode/modules/vendor_dlkm/msm_performance.ko
+msm_sharedmem	vendor_dlkm	20576	GPL			qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_dlkm/msm_sharedmem.ko
+msm_show_epoch	vendor_dlkm	11040	GPL	Qualcomm Technologies, Inc. show epoch values driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	4	/tmp/opencode/modules/vendor_dlkm/msm_show_epoch.ko
+msm_show_resume_irq	vendor_dlkm	24208	GPL	Qualcomm Technologies, Inc. MSM Show resume IRQ			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	5	28	/tmp/opencode/modules/vendor_dlkm/msm_show_resume_irq.ko
+msm_sysstats	vendor_dlkm	35480	GPL v2			qcom_dma_heaps	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	46	/tmp/opencode/modules/vendor_dlkm/msm_sysstats.ko
+msm_video	vendor_dlkm	1187624	GPL v2			qcom-scm,mdt_loader,mem_buf_dev,llcc-qcom,clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	24	741	242	/tmp/opencode/modules/vendor_dlkm/msm_video.ko
+nb7vpq904m	vendor_dlkm	41336	GPL	USB Super Speed Linear Re-Driver		redriver	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	39	/tmp/opencode/modules/vendor_dlkm/nb7vpq904m.ko
+nxp-nci	vendor_dlkm	82824	GPL	NXP NFC I2C driver		smcinvoke_dlkm,qcom_ipc_logging,pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	49	80	/tmp/opencode/modules/vendor_dlkm/nxp-nci.ko
+panel_event_notifier	vendor_dlkm	17872	GPL v2	Qualcomm Technologies, Inc. Panel event notifier			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	3	/tmp/opencode/modules/vendor_dlkm/panel_event_notifier.ko
+pci-msm-drv	vendor_dlkm	495160	GPL	Qualcomm Technologies, Inc. PCIe RC driver		qcom_ipc_logging,clk-qcom,crm,pinctrl-msm,pcie-pdc,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	29	207	/tmp/opencode/modules/vendor_dlkm/pci-msm-drv.ko
+pcie-pdc	vendor_dlkm	18056	GPL	Qualcomm Technologies, Inc. Power Domain Controller for PCIe			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	8	5	8	/tmp/opencode/modules/vendor_dlkm/pcie-pdc.ko
+pdr_interface	vendor_dlkm	38352	GPL v2	Qualcomm Protection Domain Restart helpers		qmi_helpers,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	37	/tmp/opencode/modules/vendor_dlkm/pdr_interface.ko
+phy-generic	vendor_dlkm	24792	GPL	NOP USB Transceiver driver	Texas Instruments Inc		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	9	31	/tmp/opencode/modules/vendor_dlkm/phy-generic.ko
+phy-msm-snps-eusb2	vendor_dlkm	52696	GPL v2	MSM USB eUSB2 PHY driver		repeater,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	67	/tmp/opencode/modules/vendor_dlkm/phy-msm-snps-eusb2.ko
+phy-msm-ssusb-qmp	vendor_dlkm	50376	GPL v2	MSM USB SS QMP PHY driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	12	7	62	/tmp/opencode/modules/vendor_dlkm/phy-msm-ssusb-qmp.ko
+phy-qcom-emu	vendor_dlkm	17856	GPL v2	Qualcomm Technologies, Inc. USB Emulation PHY driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_dlkm/phy-qcom-emu.ko
+phy-qcom-ufs-qmp-v4	vendor_dlkm	27352	GPL	Universal Flash Storage (UFS) QCOM PHY QMP v4		phy-qcom-ufs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	22	/tmp/opencode/modules/vendor_dlkm/phy-qcom-ufs-qmp-v4.ko
+pinctrl-spmi-gpio	vendor_dlkm	60144	GPL v2	Qualcomm SPMI PMIC GPIO pin control driver	Ivan T. Ivanov <iivanov@mm-sol.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	103	13	38	/tmp/opencode/modules/vendor_dlkm/pinctrl-spmi-gpio.ko
+pinctrl-spmi-mpp	vendor_dlkm	35768	GPL v2	Qualcomm SPMI PMIC MPP pin control driver	Ivan T. Ivanov <iivanov@mm-sol.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	21	7	24	/tmp/opencode/modules/vendor_dlkm/pinctrl-spmi-mpp.ko
+pinctrl_lpi_dlkm	vendor_dlkm	44256	GPL v2	QTI LPI GPIO pin control driver		spf_core_dlkm,q6_notifier_dlkm,snd_event_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	11	48	/tmp/opencode/modules/vendor_dlkm/pinctrl_lpi_dlkm.ko
+pm8941-pwrkey	vendor_dlkm	27640	GPL v2	PM8941 Power Key driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	8	4	34	/tmp/opencode/modules/vendor_dlkm/pm8941-pwrkey.ko
+pmic-glink-debug	vendor_dlkm	26000	GPL	PMIC Glink Debug Driver		pmic_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	4	29	/tmp/opencode/modules/vendor_dlkm/pmic-glink-debug.ko
+pmic_glink	vendor_dlkm	40248	GPL v2	QTI PMIC Glink driver		qcom_ipc_logging,rproc_qcom_common,pdr_interface	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	7	58	/tmp/opencode/modules/vendor_dlkm/pmic_glink.ko
+ps5169	vendor_dlkm	50496	GPL v2	Parade PS5169 USB3.1 Gen2 Type-C 10Gbps Linear Redriver		redriver	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	10	42	/tmp/opencode/modules/vendor_dlkm/ps5169.ko
+pwm-qti-lpg	vendor_dlkm	59640	GPL v2	QTI LPG driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	5	27	/tmp/opencode/modules/vendor_dlkm/pwm-qti-lpg.ko
+q6_dlkm	vendor_dlkm	15856	GPL v2	Q6 module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	9	6	/tmp/opencode/modules/vendor_dlkm/q6_dlkm.ko
+q6_notifier_dlkm	vendor_dlkm	38064	GPL v2	Audio notifier driver		q6_pdr_dlkm,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	11	29	/tmp/opencode/modules/vendor_dlkm/q6_notifier_dlkm.ko
+q6_pdr_dlkm	vendor_dlkm	12696	GPL v2	PDR framework driver		pdr_interface	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	4	/tmp/opencode/modules/vendor_dlkm/q6_pdr_dlkm.ko
+qca_cld3_wcn6450	vendor_dlkm	16317416	Dual BSD/GPL	WLAN HOST DEVICE DRIVER	Qualcomm Atheros, Inc.	cfg80211,cnss_prealloc,qcom_va_minidump,cnss_nl,cnss_utils,icnss2	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12953	491	/tmp/opencode/modules/vendor_dlkm/qca_cld3_wcn6450.ko
+qce50_dlkm	vendor_dlkm	134904	GPL v2	Crypto Engine driver		sps_drv	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	19	67	/tmp/opencode/modules/vendor_dlkm/qce50_dlkm.ko
+qcedev-mod_dlkm	vendor_dlkm	136624	GPL v2	QTI DEV Crypto driver		qce50_dlkm,mem_buf_dev	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	15	89	/tmp/opencode/modules/vendor_dlkm/qcedev-mod_dlkm.ko
+qcom-cpufreq-hw-debug	vendor_dlkm	21872	GPL	QTI clock driver for CPUFREQ HW debug			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	21	/tmp/opencode/modules/vendor_dlkm/qcom-cpufreq-hw-debug.ko
+qcom-hv-haptics	vendor_dlkm	208536	GPL v2	Qualcomm Technologies, Inc. High-Voltage Haptics driver		qti_battery_charger	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	25	123	/tmp/opencode/modules/vendor_dlkm/qcom-hv-haptics.ko
+qcom-pon	vendor_dlkm	15608	GPL v2	pm8916 Power On driver		reboot-mode	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	8	4	10	/tmp/opencode/modules/vendor_dlkm/qcom-pon.ko
+qcom-spmi-adc5-gen3	vendor_dlkm	65712	GPL v2	Qualcomm Technologies Inc. PMIC5 Gen3 ADC driver		qcom-vadc-common,thermal_minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	5	10	50	/tmp/opencode/modules/vendor_dlkm/qcom-spmi-adc5-gen3.ko
+qcom-spmi-temp-alarm	vendor_dlkm	29576	GPL v2	QPNP PMIC Temperature Alarm driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	4	26	/tmp/opencode/modules/vendor_dlkm/qcom-spmi-temp-alarm.ko
+qcom-spmi-wled	vendor_dlkm	63464	GPL	Qualcomm Technologies, Inc. SPMI PMIC WLED driver		qti_battery_charger	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	42	/tmp/opencode/modules/vendor_dlkm/qcom-spmi-wled.ko
+qcom-vadc-common	vendor_dlkm	37640	GPL v2	Qualcomm ADC common functionality			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12	1	/tmp/opencode/modules/vendor_dlkm/qcom-vadc-common.ko
+qcom_cpuss_sleep_stats	vendor_dlkm	30464	GPL v2	Qualcomm Technologies, Inc. (QTI) CPUSS sleep stats driver		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	34	/tmp/opencode/modules/vendor_dlkm/qcom_cpuss_sleep_stats.ko
+qcom_edac	vendor_dlkm	23384	GPL v2	QCOM EDAC driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	17	/tmp/opencode/modules/vendor_dlkm/qcom_edac.ko
+qcom_glink	vendor_dlkm	97944	GPL v2	Qualcomm GLINK driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	20	92	/tmp/opencode/modules/vendor_dlkm/qcom_glink.ko
+qcom_glink_smem	vendor_dlkm	19848	GPL v2	Qualcomm GLINK SMEM driver	Bjorn Andersson <bjorn.andersson@linaro.org>	smem,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	20	/tmp/opencode/modules/vendor_dlkm/qcom_glink_smem.ko
+qcom_glink_spss	vendor_dlkm	20352	GPL	QTI GLINK SPSS driver		smem,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	27	/tmp/opencode/modules/vendor_dlkm/qcom_glink_spss.ko
+qcom_iommu_debug	vendor_dlkm	104552	GPL v2			qcom_iommu_util	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	23	84	/tmp/opencode/modules/vendor_dlkm/qcom_iommu_debug.ko
+qcom_lpm	vendor_dlkm	91560	GPL v2	Qualcomm Technologies, Inc. cpuidle LPM governor		sched-walt	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	41	73	/tmp/opencode/modules/vendor_dlkm/qcom_lpm.ko
+qcom_pil_info	vendor_dlkm	18408	GPL v2	Qualcomm PIL relocation info			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	17	/tmp/opencode/modules/vendor_dlkm/qcom_pil_info.ko
+qcom_pm8008-regulator	vendor_dlkm	47312	GPL	QPNP PM8008 PMIC Regulator Driver		debug-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	32	/tmp/opencode/modules/vendor_dlkm/qcom_pm8008-regulator.ko
+qcom_q6v5	vendor_dlkm	32184	GPL v2	Qualcomm Peripheral Image Loader for Q6V5		qcom_sysmon,smem,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	37	/tmp/opencode/modules/vendor_dlkm/qcom_q6v5.ko
+qcom_q6v5_pas	vendor_dlkm	135864	GPL v2	Qualcomm Hexagon v5 Peripheral Authentication Service driver		qcom-scm,qcom_aoss,qcom_q6v5,qcom_pil_info,rproc_qcom_common,qcom_sysmon,qcom_ramdump,mdt_loader,smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	164	11	145	/tmp/opencode/modules/vendor_dlkm/qcom_q6v5_pas.ko
+qcom_ramdump	vendor_dlkm	24736	GPL	Qualcomm Technologies, Inc. Ramdump driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	32	/tmp/opencode/modules/vendor_dlkm/qcom_ramdump.ko
+qcom_smd	vendor_dlkm	46144	GPL v2	Qualcomm Shared Memory Driver	Bjorn Andersson <bjorn.andersson@sonymobile.com>	smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	9	61	/tmp/opencode/modules/vendor_dlkm/qcom_smd.ko
+qcom_spss	vendor_dlkm	43448	GPL	QTI Peripheral Image Loader for Secure Subsystem		qcom-scm,qcom_aoss,rproc_qcom_common,qcom_sysmon,mdt_loader,qcom_glink_spss,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	8	7	71	/tmp/opencode/modules/vendor_dlkm/qcom_spss.ko
+qcom_stats	vendor_dlkm	64520	GPL v2	Qualcomm Technologies, Inc. (QTI) Stats driver		smem,qcom_aoss	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	20	19	51	/tmp/opencode/modules/vendor_dlkm/qcom_stats.ko
+qcom_sysmon	vendor_dlkm	45320	GPL v2	Qualcomm sysmon driver		qmi_helpers,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	53	/tmp/opencode/modules/vendor_dlkm/qcom_sysmon.ko
+qcrypto-msm_dlkm	vendor_dlkm	136648	GPL v2	QTI Crypto driver		qce50_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	16	87	/tmp/opencode/modules/vendor_dlkm/qcrypto-msm_dlkm.ko
+qfprom-sys	vendor_dlkm	15624	GPL	Qualcomm Technologies, Inc. QFPROM_SYS driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	13	/tmp/opencode/modules/vendor_dlkm/qfprom-sys.ko
+qmi_helpers	vendor_dlkm	50568	GPL v2	QMI encoder/decoder helper		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	37	/tmp/opencode/modules/vendor_dlkm/qmi_helpers.ko
+qpnp-amoled-regulator	vendor_dlkm	33640	GPL	QPNP AMOLED regulator driver		debug-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	22	/tmp/opencode/modules/vendor_dlkm/qpnp-amoled-regulator.ko
+qpnp-lcdb-regulator	vendor_dlkm	82864	GPL	QPNP LCDB regulator driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	29	/tmp/opencode/modules/vendor_dlkm/qpnp-lcdb-regulator.ko
+qpnp_adaptive_charge	vendor_dlkm	27296	GPL v2	Motorola QPNP adaptive charging		mmi_charger	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	8	19	/tmp/opencode/modules/vendor_dlkm/qpnp_adaptive_charge.ko
+qrng_dlkm	vendor_dlkm	27288	GPL v2	QTI MSM Random Number Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	42	/tmp/opencode/modules/vendor_dlkm/qrng_dlkm.ko
+qrtr-mhi	vendor_dlkm	50360	GPL v2	Qualcomm IPC-Router MHI interface driver	"Chris Lew <clew@codeaurora.org>
+Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>"	mhi,qrtr	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	4	25	/tmp/opencode/modules/vendor_dlkm/qrtr-mhi.ko
+qrtr-smd	vendor_dlkm	17192	GPL v2	Qualcomm IPC-Router SMD interface driver		qrtr,qcom_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	3	21	/tmp/opencode/modules/vendor_dlkm/qrtr-smd.ko
+qsee_ipc_irq_bridge	vendor_dlkm	35704	GPL	QSEE IPC interrupt bridge		qcom_ipc_logging,rproc_qcom_common	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	40	/tmp/opencode/modules/vendor_dlkm/qsee_ipc_irq_bridge.ko
+qseecom_proxy	vendor_dlkm	16480	GPL	Qseecom proxy driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	2	/tmp/opencode/modules/vendor_dlkm/qseecom_proxy.ko
+qti-fixed-regulator	vendor_dlkm	21688	GPL	Fixed voltage regulator	Mark Brown <broonie@opensource.wolfsonmicro.com>	proxy-consumer,debug-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	9	5	24	/tmp/opencode/modules/vendor_dlkm/qti-fixed-regulator.ko
+qti-glink-adc	vendor_dlkm	21520	GPL	Glink ADC Driver		pmic_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	22	/tmp/opencode/modules/vendor_dlkm/qti-glink-adc.ko
+qti-ocp-notifier	vendor_dlkm	21480	GPL v2	QTI Regulator OCP Notifier Driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	22	/tmp/opencode/modules/vendor_dlkm/qti-ocp-notifier.ko
+qti_amoled_ecm	vendor_dlkm	38704	GPL v2	QTI AMOLED ECM driver		hwmon,panel_event_notifier	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	38	/tmp/opencode/modules/vendor_dlkm/qti_amoled_ecm.ko
+qti_battery_charger	vendor_dlkm	99880	GPL v2	QTI Glink battery charger driver		pmic_glink,panel_event_notifier	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	73	/tmp/opencode/modules/vendor_dlkm/qti_battery_charger.ko
+qti_battery_debug	vendor_dlkm	38416	GPL v2	QTI Glink battery debug driver		pmic_glink	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	31	/tmp/opencode/modules/vendor_dlkm/qti_battery_debug.ko
+qti_cpufreq_cdev	vendor_dlkm	21040	GPL	Qualcomm Technologies, Inc. cpufreq cooling driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	29	/tmp/opencode/modules/vendor_dlkm/qti_cpufreq_cdev.ko
+qti_devfreq_cdev	vendor_dlkm	18360	GPL	Qualcomm Technologies, Inc. devfreq cooling device driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	21	/tmp/opencode/modules/vendor_dlkm/qti_devfreq_cdev.ko
+qti_glink_charger	vendor_dlkm	183568	GPL v2	QTI Glink Charger Driver		qcom_ipc_logging,pmic_glink,bm_adsp_ulog,mmi_charger	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	19	95	/tmp/opencode/modules/vendor_dlkm/qti_glink_charger.ko
+qti_qmi_cdev	vendor_dlkm	74496	GPL	QTI QMI cooling device driver		qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	35	/tmp/opencode/modules/vendor_dlkm/qti_qmi_cdev.ko
+qti_qmi_sensor_v2	vendor_dlkm	96584	GPL			qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	11	39	/tmp/opencode/modules/vendor_dlkm/qti_qmi_sensor_v2.ko
+qti_thermal_vendor_hooks	vendor_dlkm	11280	GPL	QCOM Thermal Vendor Hooks Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	4	/tmp/opencode/modules/vendor_dlkm/qti_thermal_vendor_hooks.ko
+qti_userspace_cdev	vendor_dlkm	16808	GPL	Userspace cooling device driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	12	/tmp/opencode/modules/vendor_dlkm/qti_userspace_cdev.ko
+rbs_fod_mmi	vendor_dlkm	77800	GPL	egis fingerprint driver			6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	32	75	/tmp/opencode/modules/vendor_dlkm/rbs_fod_mmi.ko
+rdbg	vendor_dlkm	38192	GPL	rdbg module		smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	37	/tmp/opencode/modules/vendor_dlkm/rdbg.ko
+reboot-mode	vendor_dlkm	16664	GPL v2	System reboot mode core library	Andy Yan <andy.yan@rock-chips.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	15	/tmp/opencode/modules/vendor_dlkm/reboot-mode.ko
+redriver	vendor_dlkm	18520	GPL	USB Super Speed (Plus) redriver core module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	11	7	/tmp/opencode/modules/vendor_dlkm/redriver.ko
+repeater-qti-pmic-eusb2	vendor_dlkm	35944	GPL	QTI PMIC eUSB2 repeater driver		repeater	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	34	/tmp/opencode/modules/vendor_dlkm/repeater-qti-pmic-eusb2.ko
+repeater	vendor_dlkm	20320	GPL	USB repeater framework			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	9	17	/tmp/opencode/modules/vendor_dlkm/repeater.ko
+rmnet_aps	vendor_dlkm	49760	GPL v2			rmnet_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	18	61	/tmp/opencode/modules/vendor_dlkm/rmnet_aps.ko
+rmnet_core	vendor_dlkm	437776	GPL v2			rmnet_mem,rmnet_ctl,qmi_helpers,ipam	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	338	154	/tmp/opencode/modules/vendor_dlkm/rmnet_core.ko
+rmnet_ctl	vendor_dlkm	25536	GPL v2	RmNet control IPA Driver		ipam,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12	25	/tmp/opencode/modules/vendor_dlkm/rmnet_ctl.ko
+rmnet_mem	vendor_dlkm	37688	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	36	32	/tmp/opencode/modules/vendor_dlkm/rmnet_mem.ko
+rmnet_offload	vendor_dlkm	40112	GPL v2			rmnet_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	35	33	/tmp/opencode/modules/vendor_dlkm/rmnet_offload.ko
+rmnet_perf	vendor_dlkm	37440	GPL v2			rmnet_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	21	39	/tmp/opencode/modules/vendor_dlkm/rmnet_perf.ko
+rmnet_perf_tether	vendor_dlkm	26744	GPL v2			rmnet_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	13	28	/tmp/opencode/modules/vendor_dlkm/rmnet_perf_tether.ko
+rmnet_sch	vendor_dlkm	18648	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	8	/tmp/opencode/modules/vendor_dlkm/rmnet_sch.ko
+rmnet_shs	vendor_dlkm	304560	"GPL v2
+GPL v2
+GPL v2"			rmnet_core,sched-walt	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	300	142	/tmp/opencode/modules/vendor_dlkm/rmnet_shs.ko
+rmnet_wlan	vendor_dlkm	87264	GPL v2			rmnet_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	48	70	/tmp/opencode/modules/vendor_dlkm/rmnet_wlan.ko
+rproc_qcom_common	vendor_dlkm	65912	GPL v2	Qualcomm Remoteproc helper driver		qcom_aoss,smem,qcom_glink_smem,qcom_glink,qcom_smd	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	25	76	/tmp/opencode/modules/vendor_dlkm/rproc_qcom_common.ko
+sensors_class	vendor_dlkm	33912	GPL v2				6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	8	16	/tmp/opencode/modules/vendor_dlkm/sensors_class.ko
+sg	vendor_dlkm	142504	GPL	SCSI generic (sg) driver	Douglas Gilbert		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	5	94	/tmp/opencode/modules/vendor_dlkm/sg.ko
+slim-qcom-ngd-ctrl	vendor_dlkm	165376	GPL v2	Qualcomm SLIMBus NGD controller		qcom_ipc_logging,rproc_qcom_common,pdr_interface,slimbus,qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	12	118	/tmp/opencode/modules/vendor_dlkm/slim-qcom-ngd-ctrl.ko
+slimbus	vendor_dlkm	58392	GPL v2	SLIMbus core			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	31	49	/tmp/opencode/modules/vendor_dlkm/slimbus.ko
+smcinvoke_dlkm	vendor_dlkm	273264	GPL v2	SMC Invoke driver		qcom-scm,mem_buf_dev,qseecom_proxy	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	92	105	/tmp/opencode/modules/vendor_dlkm/smcinvoke_dlkm.ko
+smmu_proxy_dlkm	vendor_dlkm	30376	GPL v2			smcinvoke_dlkm,mem_buf_dev,gh_msgq,qcom_dma_heaps	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	36	/tmp/opencode/modules/vendor_dlkm/smmu_proxy_dlkm.ko
+smp2p	vendor_dlkm	37728	GPL v2	Qualcomm Shared Memory Point to Point driver		qcom_ipc_logging,smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	57	/tmp/opencode/modules/vendor_dlkm/smp2p.ko
+smp2p_sleepstate	vendor_dlkm	15096	GPL	SMP2P SLEEP STATE			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	13	/tmp/opencode/modules/vendor_dlkm/smp2p_sleepstate.ko
+snd-soc-hdmi-codec	vendor_dlkm	32328	GPL	HDMI Audio Codec Driver	Jyri Sarha <jsarha@ti.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	3	21	/tmp/opencode/modules/vendor_dlkm/snd-soc-hdmi-codec.ko
+snd-usb-audio-qmi	vendor_dlkm	154904	GPL	USB AUDIO QMI Service Driver		qmi_helpers,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	13	84	/tmp/opencode/modules/vendor_dlkm/snd-usb-audio-qmi.ko
+snd_event_dlkm	vendor_dlkm	23888	GPL v2	SND event module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	11	/tmp/opencode/modules/vendor_dlkm/snd_event_dlkm.ko
+spf_core_dlkm	vendor_dlkm	35352	GPL v2	q6 core		gpr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	12	34	/tmp/opencode/modules/vendor_dlkm/spf_core_dlkm.ko
+spi-msm-geni	vendor_dlkm	126544	GPL			qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	11	105	/tmp/opencode/modules/vendor_dlkm/spi-msm-geni.ko
+spmi-pmic-arb-debug	vendor_dlkm	23480	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	4	29	/tmp/opencode/modules/vendor_dlkm/spmi-pmic-arb-debug.ko
+sps_drv	vendor_dlkm	486168	GPL	Smart Peripheral Switch (SPS)		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	117	72	/tmp/opencode/modules/vendor_dlkm/sps_drv.ko
+stm_console	vendor_dlkm	12456	GPL v2	stm_console driver	Alexander Shishkin <alexander.shishkin@linux.intel.com>	stm_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	5	/tmp/opencode/modules/vendor_dlkm/stm_console.ko
+stm_core	vendor_dlkm	73112	GPL v2	System Trace Module device class	Alexander Shishkin <alexander.shishkin@linux.intel.com>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	26	73	/tmp/opencode/modules/vendor_dlkm/stm_core.ko
+stm_ftrace	vendor_dlkm	13776	GPL v2	stm_ftrace driver	Chunyan Zhang <zhang.chunyan@linaro.org>	stm_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	10	/tmp/opencode/modules/vendor_dlkm/stm_ftrace.ko
+stm_heartbeat	vendor_dlkm	15016	GPL v2	stm_heartbeat driver	Alexander Shishkin <alexander.shishkin@linux.intel.com>	stm_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	10	/tmp/opencode/modules/vendor_dlkm/stm_heartbeat.ko
+stm_p_ost	vendor_dlkm	13736	GPL	MIPI Open System Trace STM framing protocol driver		stm_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	6	/tmp/opencode/modules/vendor_dlkm/stm_p_ost.ko
+stub_dlkm	vendor_dlkm	13592	GPL v2	Generic MSM CODEC driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	4	/tmp/opencode/modules/vendor_dlkm/stub_dlkm.ko
+swr_ctrl_dlkm	vendor_dlkm	130992	GPL v2	SoundWire Master Controller		swr_dlkm,spf_core_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	6	96	/tmp/opencode/modules/vendor_dlkm/swr_ctrl_dlkm.ko
+swr_dlkm	vendor_dlkm	59464	"GPL v2
+GPL v2"	Soundwire module			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	34	40	/tmp/opencode/modules/vendor_dlkm/swr_dlkm.ko
+swr_dmic_dlkm	vendor_dlkm	42952	GPL v2	SWR DMIC driver		swr_dlkm,wcd939x_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	39	/tmp/opencode/modules/vendor_dlkm/swr_dmic_dlkm.ko
+swr_haptics_dlkm	vendor_dlkm	38208	GPL v2	SWR haptics driver		swr_dlkm,qti_battery_charger	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	34	/tmp/opencode/modules/vendor_dlkm/swr_haptics_dlkm.ko
+sx937x_sar	vendor_dlkm	80232	GPL	SX937x Capacitive Proximity Controller Driver	Semtech Corp. (http://www.semtech.com/)	sensors_class	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	1	8	66	/tmp/opencode/modules/vendor_dlkm/sx937x_sar.ko
+sync_fence	vendor_dlkm	43416	GPL v2	QCOM Speculative Sync Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	55	/tmp/opencode/modules/vendor_dlkm/sync_fence.ko
+sys_pm_vx	vendor_dlkm	47864	GPL	Qualcomm Technologies, Inc. (QTI) System PM Violators driver		qcom_aoss,qcom_stats	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	11	39	/tmp/opencode/modules/vendor_dlkm/sys_pm_vx.ko
+sysmon_subsystem_stats	vendor_dlkm	56672	GPL	Qualcomm Technologies, Inc. Sysmon subsystem Stats driver		smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	15	/tmp/opencode/modules/vendor_dlkm/sysmon_subsystem_stats.ko
+thermal_config	vendor_dlkm	23280	GPL	Thermal Zone config debug driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	22	/tmp/opencode/modules/vendor_dlkm/thermal_config.ko
+touchscreen_mmi	vendor_dlkm	135632	GPL v2			mmi_relay,panel_event_notifier,sensors_class	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	22	81	/tmp/opencode/modules/vendor_dlkm/touchscreen_mmi.ko
+tz_log_dlkm	vendor_dlkm	52752	GPL v2	TZ Log driver		tmecom-intf,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	34	/tmp/opencode/modules/vendor_dlkm/tz_log_dlkm.ko
+ubwcp	vendor_dlkm	305160	"GPL
+GPL"			qcom_dma_heaps,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	122	112	/tmp/opencode/modules/vendor_dlkm/ubwcp.ko
+ucsi_glink	vendor_dlkm	35080	GPL v2	QTI UCSI Glink driver		pmic_glink,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	41	/tmp/opencode/modules/vendor_dlkm/ucsi_glink.ko
+usb_f_ccid	vendor_dlkm	57824	GPL	USB CCID function Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	3	51	/tmp/opencode/modules/vendor_dlkm/usb_f_ccid.ko
+usb_f_cdev	vendor_dlkm	68752	GPL	USB Serial Character Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	15	75	/tmp/opencode/modules/vendor_dlkm/usb_f_cdev.ko
+usb_f_gsi	vendor_dlkm	222560	GPL	GSI function driver		qcom_ipc_logging,dwc3-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	23	109	/tmp/opencode/modules/vendor_dlkm/usb_f_gsi.ko
+usb_f_qdss	vendor_dlkm	53656	GPL	USB QDSS Function Driver		qcom_ipc_logging,dwc3-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	10	52	/tmp/opencode/modules/vendor_dlkm/usb_f_qdss.ko
+utags	vendor_dlkm	72776	GPL	Configuration module	Motorola Mobility LLC		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	8	66	/tmp/opencode/modules/vendor_dlkm/utags.ko
+videocc-volcano	vendor_dlkm	30256	GPL	QTI VIDEO_CC VOLCANO Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	8	21	/tmp/opencode/modules/vendor_dlkm/videocc-volcano.ko
+watchdogtest	vendor_dlkm	17104	GPL			qcom_wdt_core	6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	9	14	/tmp/opencode/modules/vendor_dlkm/watchdogtest.ko
+wcd9378_dlkm	vendor_dlkm	460616	GPL	WCD9378 Codec driver		wcd_core_dlkm,swr_dlkm,qti-regmap-debugfs,wcd9xxx_dlkm,mbhc_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	31	99	/tmp/opencode/modules/vendor_dlkm/wcd9378_dlkm.ko
+wcd9378_slave_dlkm	vendor_dlkm	28864	GPL	WCD9378 Swr Slave driver		swr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	32	/tmp/opencode/modules/vendor_dlkm/wcd9378_slave_dlkm.ko
+wcd937x_dlkm	vendor_dlkm	176672	GPL v2	WCD937X Codec driver		wcd_core_dlkm,swr_dlkm,qti-regmap-debugfs,wcd9xxx_dlkm,mbhc_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	31	100	/tmp/opencode/modules/vendor_dlkm/wcd937x_dlkm.ko
+wcd937x_slave_dlkm	vendor_dlkm	28864	GPL v2	WCD937X Swr Slave driver		swr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	29	/tmp/opencode/modules/vendor_dlkm/wcd937x_slave_dlkm.ko
+wcd938x_dlkm	vendor_dlkm	238280	GPL v2	WCD938X Codec driver		swr_dlkm,wcd_core_dlkm,qti-regmap-debugfs,wcd9xxx_dlkm,mbhc_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	34	101	/tmp/opencode/modules/vendor_dlkm/wcd938x_dlkm.ko
+wcd938x_slave_dlkm	vendor_dlkm	29616	GPL v2	WCD938X Swr Slave driver		swr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	31	/tmp/opencode/modules/vendor_dlkm/wcd938x_slave_dlkm.ko
+wcd939x_dlkm	vendor_dlkm	274512	GPL v2	WCD939X Codec driver		swr_dlkm,wcd_core_dlkm,wcd_usbss_i2c,qti-regmap-debugfs,wcd9xxx_dlkm,mbhc_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	34	120	/tmp/opencode/modules/vendor_dlkm/wcd939x_dlkm.ko
+wcd939x_slave_dlkm	vendor_dlkm	29616	GPL v2	WCD939X Swr Slave driver		swr_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	31	/tmp/opencode/modules/vendor_dlkm/wcd939x_slave_dlkm.ko
+wcd9xxx_dlkm	vendor_dlkm	50032	"GPL v2
+GPL v2
+GPL v2"	"WCD9XXX CODEC soc init driver
+Audio Ref Up Clock module platform driver
+WCD Class-H Driver"		audio_prm_dlkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	14	30	/tmp/opencode/modules/vendor_dlkm/wcd9xxx_dlkm.ko
+wcd_core_dlkm	vendor_dlkm	73040	"GPL v2
+GPL v2"	"WCD9XXX CODEC core init driver
+MSM CODEC pin control platform driver"		pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	46	56	/tmp/opencode/modules/vendor_dlkm/wcd_core_dlkm.ko
+wcd_usbss_i2c	vendor_dlkm	87800	GPL	WCD USBSS I2C driver		ucsi_glink,qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	19	67	/tmp/opencode/modules/vendor_dlkm/wcd_usbss_i2c.ko
+wlan_antenna	vendor_dlkm	17160	GPL	wlan antenna control interface driver	Motorola Mobiity		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	3	15	/tmp/opencode/modules/vendor_dlkm/wlan_antenna.ko
+wlan_firmware_service	vendor_dlkm	97536	GPL v2	WLAN FW QMI service		qmi_helpers	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	124	3	/tmp/opencode/modules/vendor_dlkm/wlan_firmware_service.ko
+wsa883x_dlkm	vendor_dlkm	96688	GPL v2	WSA883x codec driver		swr_dlkm,wcd_core_dlkm,qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12	84	/tmp/opencode/modules/vendor_dlkm/wsa883x_dlkm.ko
+wsa884x_dlkm	vendor_dlkm	144952	GPL v2	WSA884x codec driver		swr_dlkm,wcd_core_dlkm,qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12	89	/tmp/opencode/modules/vendor_dlkm/wsa884x_dlkm.ko
+arm_smmu	vendor_boot	256736	GPL v2	IOMMU API for ARM architected SMMU implementations	Will Deacon <will@kernel.org>	qcom_iommu_util,iommu-logger,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	19	70	157	/tmp/opencode/modules/vendor_boot/arm_smmu.ko
+bcl_pmic5	vendor_boot	54896	GPL			qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	13	50	/tmp/opencode/modules/vendor_boot/bcl_pmic5.ko
+bk_log	vendor_boot	30400	GPL	Store boot kernel log to storage	Motorola Mobility LLC		6.1.157-android14-11-04113-g76dde4987bea SMP preempt mod_unload modversions aarch64	0	4	56	/tmp/opencode/modules/vendor_boot/bk_log.ko
+camcc-cliffs	vendor_boot	117616	GPL	QTI CAM_CC CLIFFS Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	8	28	/tmp/opencode/modules/vendor_boot/camcc-cliffs.ko
+camcc-pineapple	vendor_boot	134368	GPL	QTI CAM_CC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	8	31	/tmp/opencode/modules/vendor_boot/camcc-pineapple.ko
+clk-dummy	vendor_boot	17320	GPL v2	QTI Dummy Clock Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	7	13	/tmp/opencode/modules/vendor_boot/clk-dummy.ko
+clk-qcom	vendor_boot	395472	GPL v2	Common QCOM clock control library		crm,gdsc-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	183	152	/tmp/opencode/modules/vendor_boot/clk-qcom.ko
+clk-rpmh	vendor_boot	103064	GPL v2	QCOM RPMh Clock Driver		qcom_rpmh,cmd-db,clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	46	4	20	/tmp/opencode/modules/vendor_boot/clk-rpmh.ko
+cmd-db	vendor_boot	22072	GPL v2	Qualcomm Technologies, Inc. Command DB Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	12	15	/tmp/opencode/modules/vendor_boot/cmd-db.ko
+cpu_hotplug	vendor_boot	21712	GPL	CPU Hotplug cooling device driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	29	/tmp/opencode/modules/vendor_boot/cpu_hotplug.ko
+cqhci	vendor_boot	53424	"GPL v2
+GPL"	"Command Queue Host Controller Interface driver
+Vendor specific CQHCI Crypto Engine Support"	Venkat Gopalakrishnan <venkatg@codeaurora.org>	crypto-qti	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	39	/tmp/opencode/modules/vendor_boot/cqhci.ko
+crm	vendor_boot	66664	GPL	Qualcomm Technologies, Inc. (QTI) CRM Driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	29	62	/tmp/opencode/modules/vendor_boot/crm.ko
+crypto-qti	vendor_boot	39696	"GPL
+GPL"	"Common crypto library for storage encryption
+Crypto HWKM library for storage encryption"		qcom-scm,hwkm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	17	23	/tmp/opencode/modules/vendor_boot/crypto-qti.ko
+dcc_v2	vendor_boot	64664	GPL	MSM data capture and compare engine		minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	51	/tmp/opencode/modules/vendor_boot/dcc_v2.ko
+dcvs_fp	vendor_boot	19536	GPL	QCOM DCVS FP Driver		qcom_rpmh,cmd-db	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	13	/tmp/opencode/modules/vendor_boot/dcvs_fp.ko
+debug-regulator	vendor_boot	50312	GPL v2	Regulator debug control library			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	55	/tmp/opencode/modules/vendor_boot/debug-regulator.ko
+debug_symbol	vendor_boot	18088	GPL	QCOM Debug Symbol driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	9	/tmp/opencode/modules/vendor_boot/debug_symbol.ko
+dispcc-pineapple	vendor_boot	80784	GPL v2	QTI DISP_CC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	8	28	/tmp/opencode/modules/vendor_boot/dispcc-pineapple.ko
+dispcc-volcano	vendor_boot	47872	GPL	QTI DISP_CC VOLCANO Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	18	/tmp/opencode/modules/vendor_boot/dispcc-volcano.ko
+gcc-cliffs	vendor_boot	109312	GPL	QTI GCC CLIFFS Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_boot/gcc-cliffs.ko
+gcc-pineapple	vendor_boot	144464	GPL v2	QTI GCC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_boot/gcc-pineapple.ko
+gcc-volcano	vendor_boot	118312	GPL	QTI GCC VOLCANO Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	19	/tmp/opencode/modules/vendor_boot/gcc-volcano.ko
+gdsc-regulator	vendor_boot	50904	GPL v2	GDSC regulator control library		proxy-consumer,debug-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	70	/tmp/opencode/modules/vendor_boot/gdsc-regulator.ko
+gh_arm_drv	vendor_boot	15856	GPL	Qualcomm Technologies, Inc. Gunyah ARM64 Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	8	/tmp/opencode/modules/vendor_boot/gh_arm_drv.ko
+gh_cpusys_vm_mem_access	vendor_boot	20232	GPL	Qualcomm Technologies, Inc. CPUSYS VM Memory Access Driver		gh_rm_drv,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	16	/tmp/opencode/modules/vendor_boot/gh_cpusys_vm_mem_access.ko
+gh_dbl	vendor_boot	30928	GPL	Qualcomm Technologies, Inc. Gunyah Doorbell Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	13	17	/tmp/opencode/modules/vendor_boot/gh_dbl.ko
+gh_mem_notifier	vendor_boot	15752	GPL	Qualcomm Technologies, Inc. Gunyah Memory Notifier		gh_rm_drv	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	5	/tmp/opencode/modules/vendor_boot/gh_mem_notifier.ko
+gh_msgq	vendor_boot	30728	GPL	Qualcomm Technologies, Inc. Gunyah Message Queue Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	10	22	/tmp/opencode/modules/vendor_boot/gh_msgq.ko
+gh_rm_drv	vendor_boot	171792	GPL	Qualcomm Technologies, Inc. Gunyah Resource Mgr. Driver		gh_arm_drv,gh_dbl,gh_msgq	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	101	71	/tmp/opencode/modules/vendor_boot/gh_rm_drv.ko
+gh_virt_wdt	vendor_boot	21336	GPL v2	QCOM Gunyah Watchdog Driver		qcom_wdt_core	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	9	/tmp/opencode/modules/vendor_boot/gh_virt_wdt.ko
+gic_intr_routing	vendor_boot	37656	GPL	Qualcomm Technologies, Inc. GIC Interrupt Routing Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	9	51	/tmp/opencode/modules/vendor_boot/gic_intr_routing.ko
+gpucc-pineapple	vendor_boot	37168	GPL	QTI GPU_CC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	16	/tmp/opencode/modules/vendor_boot/gpucc-pineapple.ko
+gunyah_loader	vendor_boot	212976	GPL			gh_rm_drv,qcom-scm,mdt_loader	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	58	162	/tmp/opencode/modules/vendor_boot/gunyah_loader.ko
+gunyah_qcom	vendor_boot	15104	GPL	Qualcomm Technologies, Inc. Platform Hooks for Gunyah		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	10	/tmp/opencode/modules/vendor_boot/gunyah_qcom.ko
+hwkm	vendor_boot	22152	GPL	QTI Hardware Key Manager library		tmecom-intf	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	8	/tmp/opencode/modules/vendor_boot/hwkm.ko
+icc-bcm-voter	vendor_boot	37496	GPL v2	Qualcomm BCM Voter interconnect driver	David Dai <daidavid1@codeaurora.org>	crm,qcom_rpmh	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	12	37	/tmp/opencode/modules/vendor_boot/icc-bcm-voter.ko
+icc-debug	vendor_boot	20112	GPL v2	QCOM ICC debug library			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	8	19	/tmp/opencode/modules/vendor_boot/icc-debug.ko
+icc-rpmh	vendor_boot	31944	GPL v2			icc-bcm-voter,cmd-db,icc-debug,socinfo	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	13	48	/tmp/opencode/modules/vendor_boot/icc-rpmh.ko
+icc-test	vendor_boot	15952	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	14	/tmp/opencode/modules/vendor_boot/icc-test.ko
+iommu-logger	vendor_boot	13736	GPL v2	QTI IOMMU SUPPORT			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	11	/tmp/opencode/modules/vendor_boot/iommu-logger.ko
+mdt_loader	vendor_boot	20664	GPL v2	Firmware parser for Qualcomm MDT format		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	20	/tmp/opencode/modules/vendor_boot/mdt_loader.ko
+mem_buf	vendor_boot	74360	GPL	Qualcomm Technologies, Inc. Memory Buffer Sharing driver		mem_buf_dev,mem_buf_msgq,qcom_dma_heaps	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	14	118	/tmp/opencode/modules/vendor_boot/mem_buf.ko
+mem_buf_dev	vendor_boot	175616	GPL	Qualcomm Technologies, Inc. Memory Buffer Sharing driver		secure_buffer,gh_rm_drv,gh_mem_notifier	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	89	102	/tmp/opencode/modules/vendor_boot/mem_buf_dev.ko
+mem_buf_msgq	vendor_boot	32200	GPL			mem_buf_dev,gh_msgq	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	12	39	/tmp/opencode/modules/vendor_boot/mem_buf_msgq.ko
+memory_dump_v2	vendor_boot	44920	GPL v2	Memory Dump V2 Driver		minidump,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	42	/tmp/opencode/modules/vendor_boot/memory_dump_v2.ko
+minidump	vendor_boot	150656	"GPL v2
+GPL"	MSM Mini Dump Driver		debug_symbol,smem,qcom_dma_heaps	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	47	118	/tmp/opencode/modules/vendor_boot/minidump.ko
+msm_dma_iommu_mapping	vendor_boot	24880	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	26	/tmp/opencode/modules/vendor_boot/msm_dma_iommu_mapping.ko
+msm_qmp	vendor_boot	47592	GPL v2	MSM QTI Mailbox Protocol		qcom_aoss,smem,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	58	/tmp/opencode/modules/vendor_boot/msm_qmp.ko
+nvmem_qcom-spmi-sdam	vendor_boot	15944	GPL v2	QCOM SPMI SDAM driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	11	/tmp/opencode/modules/vendor_boot/nvmem_qcom-spmi-sdam.ko
+nvmem_qfprom	vendor_boot	29384	GPL v2	Qualcomm QFPROM driver	Srinivas Kandagatla <srinivas.kandagatla@linaro.org>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	14	4	39	/tmp/opencode/modules/vendor_boot/nvmem_qfprom.ko
+phy-qcom-ufs-qmp-v4-crow	vendor_boot	26680	GPL	Universal Flash Storage (UFS) QCOM PHY QMP v4 CROW		phy-qcom-ufs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	23	/tmp/opencode/modules/vendor_boot/phy-qcom-ufs-qmp-v4-crow.ko
+phy-qcom-ufs-qmp-v4-pineapple	vendor_boot	28256	GPL	Universal Flash Storage (UFS) QCOM PHY QMP v4 PINEAPPLE		phy-qcom-ufs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	6	23	/tmp/opencode/modules/vendor_boot/phy-qcom-ufs-qmp-v4-pineapple.ko
+phy-qcom-ufs-qrbtc-sdm845	vendor_boot	21760	GPL v2	Universal Flash Storage (UFS) QCOM PHY QRBTC SDM845		phy-qcom-ufs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	15	/tmp/opencode/modules/vendor_boot/phy-qcom-ufs-qrbtc-sdm845.ko
+phy-qcom-ufs	vendor_boot	46464	GPL v2	Universal Flash Storage (UFS) QCOM PHY			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	21	38	/tmp/opencode/modules/vendor_boot/phy-qcom-ufs.ko
+pinctrl-cliffs	vendor_boot	130648	GPL	QTI cliffs pinctrl driver		pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	5	/tmp/opencode/modules/vendor_boot/pinctrl-cliffs.ko
+pinctrl-msm	vendor_boot	76024	GPL v2	Qualcomm Technologies, Inc. pinctrl-msm driver		qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	21	90	/tmp/opencode/modules/vendor_boot/pinctrl-msm.ko
+pinctrl-pineapple	vendor_boot	148752	GPL v2	QTI pineapple pinctrl driver		pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	6	/tmp/opencode/modules/vendor_boot/pinctrl-pineapple.ko
+pinctrl-volcano	vendor_boot	124800	GPL	QTI volcano pinctrl driver		pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	5	5	/tmp/opencode/modules/vendor_boot/pinctrl-volcano.ko
+pmic-pon-log	vendor_boot	31400	GPL v2	QTI PMIC PON log driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	15	/tmp/opencode/modules/vendor_boot/pmic-pon-log.ko
+proxy-consumer	vendor_boot	23136	GPL v2	Regulator proxy consumer library			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	22	/tmp/opencode/modules/vendor_boot/proxy-consumer.ko
+qcom-cpufreq-hw	vendor_boot	57776	GPL v2	QCOM CPUFREQ HW Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	10	15	96	/tmp/opencode/modules/vendor_boot/qcom-cpufreq-hw.ko
+qcom-dcvs	vendor_boot	115976	GPL	QCOM DCVS Driver		dcvs_fp	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	43	67	/tmp/opencode/modules/vendor_boot/qcom-dcvs.ko
+qcom-dload-mode	vendor_boot	34176	GPL v2	MSM Download Mode Driver		minidump,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	6	43	/tmp/opencode/modules/vendor_boot/qcom-dload-mode.ko
+qcom-i2c-pmic	vendor_boot	36696	GPL v2			qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	5	37	/tmp/opencode/modules/vendor_boot/qcom-i2c-pmic.ko
+qcom-ipcc	vendor_boot	23504	GPL v2	Qualcomm Technologies, Inc. IPCC driver	"Venkata Narendra Kumar Gutta <vnkgutta@codeaurora.org>
+Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>"		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	30	/tmp/opencode/modules/vendor_boot/qcom-ipcc.ko
+qcom-pdc	vendor_boot	31144	GPL v2	Qualcomm Technologies, Inc. Power Domain Controller		qcom_ipc_logging,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	14	50	/tmp/opencode/modules/vendor_boot/qcom-pdc.ko
+qcom-pmu-lib	vendor_boot	57704	GPL	QCOM PMU Driver		qcom_scmi_client,qcom_llcc_pmu	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	13	57	/tmp/opencode/modules/vendor_boot/qcom-pmu-lib.ko
+qcom-reboot-reason	vendor_boot	18200	GPL v2	MSM Reboot Reason Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	4	13	/tmp/opencode/modules/vendor_boot/qcom-reboot-reason.ko
+qcom-scm	vendor_boot	241656	GPL v2	Qualcomm Technologies, Inc. SCM driver		gh_rm_drv	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	28	149	86	/tmp/opencode/modules/vendor_boot/qcom-scm.ko
+qcom-spmi-pmic	vendor_boot	28592	GPL v2	Qualcomm SPMI PMIC driver	"Josh Cartwright <joshc@codeaurora.org>
+Stanimir Varbanov <svarbanov@mm-sol.com>"	qti-regmap-debugfs	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	61	5	18	/tmp/opencode/modules/vendor_boot/qcom-spmi-pmic.ko
+qcom_aoss	vendor_boot	43232	GPL v2	Qualcomm AOSS QMP driver		qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	16	9	58	/tmp/opencode/modules/vendor_boot/qcom_aoss.ko
+qcom_cpu_vendor_hooks	vendor_boot	20024	GPL v2	QCOM CPU Vendor Hooks Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	20	/tmp/opencode/modules/vendor_boot/qcom_cpu_vendor_hooks.ko
+qcom_cpucp	vendor_boot	18792	GPL	QTI CPUCP Driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	4	17	/tmp/opencode/modules/vendor_boot/qcom_cpucp.ko
+qcom_dma_heaps	vendor_boot	129896	GPL v2			mem_buf_dev,msm_dma_iommu_mapping,secure_buffer,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	73	121	/tmp/opencode/modules/vendor_boot/qcom_dma_heaps.ko
+qcom_hwspinlock	vendor_boot	21936	GPL v2	Hardware spinlock driver for Qualcomm SoCs			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	14	5	16	/tmp/opencode/modules/vendor_boot/qcom_hwspinlock.ko
+qcom_iommu_util	vendor_boot	139096	GPL v2			qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	84	115	/tmp/opencode/modules/vendor_boot/qcom_iommu_util.ko
+qcom_ipc_logging	vendor_boot	54864	GPL	ipc logging		minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	25	49	/tmp/opencode/modules/vendor_boot/qcom_ipc_logging.ko
+qcom_llcc_pmu	vendor_boot	25832	GPL	QCOM LLCC PMU			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	25	/tmp/opencode/modules/vendor_boot/qcom_llcc_pmu.ko
+qcom_logbuf_boot_log	vendor_boot	14552	GPL	Qualcomm Technologies, Inc. Boot Log Dump Driver		minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	5	16	/tmp/opencode/modules/vendor_boot/qcom_logbuf_boot_log.ko
+qcom_logbuf_vendor_hooks	vendor_boot	15560	GPL v2	QCOM Logbuf Vendor Hooks Driver		minidump,debug_symbol	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	5	10	/tmp/opencode/modules/vendor_boot/qcom_logbuf_vendor_hooks.ko
+qcom_rpmh	vendor_boot	99776	GPL v2	Qualcomm Technologies, Inc. RPMh Driver		qcom_ipc_logging,cmd-db,crm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	49	86	/tmp/opencode/modules/vendor_boot/qcom_rpmh.ko
+qcom_scmi_client	vendor_boot	13304	GPL	QCOM SCMI client driver			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	2	/tmp/opencode/modules/vendor_boot/qcom_scmi_client.ko
+qcom_scmi_vendor	vendor_boot	15016	GPL	qcom scmi vendor Protocol			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	5	/tmp/opencode/modules/vendor_boot/qcom_scmi_vendor.ko
+qcom_tsens	vendor_boot	107576	GPL v2	QCOM Temperature Sensor driver		thermal_minidump,qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	23	36	61	/tmp/opencode/modules/vendor_boot/qcom_tsens.ko
+qcom_va_minidump	vendor_boot	38120	GPL v2	Qcom VA Minidump Driver		minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	9	46	/tmp/opencode/modules/vendor_boot/qcom_va_minidump.ko
+qcom_wdt_core	vendor_boot	41792	GPL v2	QCOM Watchdog Driver Core		minidump,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	74	/tmp/opencode/modules/vendor_boot/qcom_wdt_core.ko
+qnoc-cliffs	vendor_boot	399040	GPL	Cliffs NoC driver		icc-rpmh,qnoc-qos	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	28	5	8	/tmp/opencode/modules/vendor_boot/qnoc-cliffs.ko
+qnoc-pineapple	vendor_boot	445880	GPL v2	Pineapple NoC driver		icc-rpmh,qnoc-qos	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	28	5	8	/tmp/opencode/modules/vendor_boot/qnoc-pineapple.ko
+qnoc-qos	vendor_boot	15032	GPL				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	1	/tmp/opencode/modules/vendor_boot/qnoc-qos.ko
+qnoc-volcano	vendor_boot	187480	GPL	Volcano NoC driver		icc-rpmh,qnoc-qos	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	24	5	8	/tmp/opencode/modules/vendor_boot/qnoc-volcano.ko
+qrtr-gunyah	vendor_boot	37528	GPL	QTI IPC-Router Gunyah interface driver		gunyah_loader,gh_dbl,qrtr,gh_rm_drv,qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	3	63	/tmp/opencode/modules/vendor_boot/qrtr-gunyah.ko
+qrtr	vendor_boot	163464	"GPL v2
+Dual BSD/GPL"	"Qualcomm IPC-router driver
+Qualcomm IPC Router Nameservice"	Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>	qcom_ipc_logging	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	36	145	/tmp/opencode/modules/vendor_boot/qrtr.ko
+qti-regmap-debugfs	vendor_boot	28440	GPL v2	Regmap QTI debugfs library			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	7	32	/tmp/opencode/modules/vendor_boot/qti-regmap-debugfs.ko
+rpmh-regulator	vendor_boot	54016	GPL v2	RPMh regulator driver		qcom_ipc_logging,cmd-db,proxy-consumer,debug-regulator,qcom_rpmh	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	35	/tmp/opencode/modules/vendor_boot/rpmh-regulator.ko
+rtc-pm8xxx	vendor_boot	27768	GPL v2	PMIC8xxx RTC driver	Anirudh Ghayal <aghayal@codeaurora.org>		6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	13	4	30	/tmp/opencode/modules/vendor_boot/rtc-pm8xxx.ko
+sched-walt	vendor_boot	845272	GPL v2			qcom-cpufreq-hw	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	404	276	/tmp/opencode/modules/vendor_boot/sched-walt.ko
+sdhci-msm	vendor_boot	135696	GPL v2	Qualcomm Secure Digital Host Controller Interface driver		crypto-qti,qcom_ipc_logging,clk-qcom,cqhci,qcom-scm,pinctrl-msm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	8	10	172	/tmp/opencode/modules/vendor_boot/sdhci-msm.ko
+secure_buffer	vendor_boot	51752	GPL v2			qcom-scm	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	22	37	/tmp/opencode/modules/vendor_boot/secure_buffer.ko
+smem	vendor_boot	33304	GPL v2	Qualcomm Shared Memory Manager	Bjorn Andersson <bjorn.andersson@sonymobile.com>	qcom_hwspinlock	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	9	22	/tmp/opencode/modules/vendor_boot/smem.ko
+socinfo	vendor_boot	93064	GPL v2	Qualcomm SoCinfo driver		smem	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	1	21	27	/tmp/opencode/modules/vendor_boot/socinfo.ko
+spmi-pmic-arb	vendor_boot	65040	GPL v2				6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	3	11	50	/tmp/opencode/modules/vendor_boot/spmi-pmic-arb.ko
+stub-regulator	vendor_boot	18424	GPL v2	stub regulator driver		debug-regulator	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	11	/tmp/opencode/modules/vendor_boot/stub-regulator.ko
+tcsrcc-pineapple	vendor_boot	20160	GPL v2	QTI TCSR_CC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	4	4	11	/tmp/opencode/modules/vendor_boot/tcsrcc-pineapple.ko
+thermal_minidump	vendor_boot	14232	GPL	Qualcomm Technologies Inc. Thermal minidump driver		minidump	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	4	14	/tmp/opencode/modules/vendor_boot/thermal_minidump.ko
+thermal_pause	vendor_boot	30344	GPL v2			sched-walt	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	6	44	/tmp/opencode/modules/vendor_boot/thermal_pause.ko
+tmecom-intf	vendor_boot	39864	GPL	MSM TMECom QTI mailbox protocol client			6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	15	34	/tmp/opencode/modules/vendor_boot/tmecom-intf.ko
+ufs_qcom	vendor_boot	421568	"GPL v2
+GPL v2
+GPL v2
+GPL v2"			sched-walt,minidump,qcom_ipc_logging,phy-qcom-ufs,ufshcd-crypto-qti,clk-qcom,qcom-scm,crypto-qti	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	2	128	279	/tmp/opencode/modules/vendor_boot/ufs_qcom.ko
+ufshcd-crypto-qti	vendor_boot	22232	GPL	UFS Crypto ops QTI implementation		crypto-qti	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	0	2	11	/tmp/opencode/modules/vendor_boot/ufshcd-crypto-qti.ko
+videocc-pineapple	vendor_boot	39496	GPL	QTI VIDEO_CC PINEAPPLE Driver		clk-qcom	6.1.157-android14-11-maybe-dirty SMP preempt mod_unload modversions aarch64	6	8	24	/tmp/opencode/modules/vendor_boot/videocc-pineapple.ko

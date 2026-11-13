@@ -1,0 +1,19 @@
+Ghidra 12.2 headless decompilation of the stock A171WEH.36-31 kernel modules.
+
+Coverage:
+- 292 vendor_dlkm modules + 294 vendor_boot modules = 401 unique modules
+- 63,429 functions
+- 3,334,193 lines of decompiled C
+
+This directory contains only metadata and the headless scripts:
+- module-inventory.tsv: per-module size, license, description, depends,
+  vermagic, aliases, exported/undefined symbols
+- ghidra-summary.tsv: per-module function count, decompiled line count,
+  largest functions, source-path breadcrumbs, sample log strings
+- scripts/: ExportDecomp.java and ExportNamed.java
+
+The decompiled C itself is kept in the private marvel-build-artifacts
+repository under ghidra/decompiled/. It is not published here because the
+module set includes Qualcomm/Motorola vendor modules with mixed licensing;
+treat the decompiled output as private research material and review licensing
+before any public redistribution.
